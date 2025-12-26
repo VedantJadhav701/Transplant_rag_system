@@ -1,0 +1,392 @@
+# DOCUMENT 15: KIDNEY TRANSPLANT - RECURRENCE AND DE NOVO GLOMERULONEPHRITIS
+
+## Executive Summary
+
+Glomerulonephritis (GN) recurrence in kidney allografts and development of de novo glomerulonephritis represent important causes of late graft dysfunction. Recurrent disease (original kidney disease reappearing in the allograft) occurs in 10-50% of recipients depending on the GN type, while de novo GN (new glomerular disease in the allograft) is less common (~5-15%). This document comprehensively addresses the epidemiology, pathogenesis, clinical features, diagnosis, and management of major GN types with recurrence risk, including IgA nephropathy, FSGS, lupus nephritis, membranoproliferative GN, and others.
+
+---
+
+## 1. EPIDEMIOLOGY AND GENERAL PRINCIPLES
+
+### 1.1 Overall Incidence and Impact
+
+**Recurrent GN:**
+- Incidence: 10-50% overall (varies by original disease type)
+- Timing: Usually >6 months post-transplant
+- Clinical significance: Causes 5-10% of graft loss by 10 years
+
+**De novo GN:**
+- Incidence: 5-15% of allografts
+- Timing: Variable (early to late)
+- Mechanisms: Non-HLA antibodies, genetic susceptibility, environmental triggers
+
+**Risk factors for recurrence:**
+
+| Factor | Impact | Mechanism |
+|--------|--------|-----------|
+| **Original disease type** | Varies dramatically | Some diseases >50% recurrence (IgA); others <5% |
+| **Time to ESRD** | Rapid progression → higher recurrence | Shorter disease duration = less resolution |
+| **Age at transplant** | Younger recipients → higher recurrence | More active immune response |
+| **Transplant timing** | Early (eGFR >15) → higher risk | Less remission time; ongoing inflammation |
+| **Prior transplant loss to recurrence** | Very high risk | Recurrence pattern likely to repeat |
+| **Disease remission status** | Active disease → higher recurrence | Ongoing immune activation |
+| **Immunosuppression intensity** | More intense IS reduces recurrence | More aggressive = less recurrence |
+
+---
+
+## 2. MAJOR GN TYPES WITH RECURRENCE RISK
+
+### 2.1 IgA Nephropathy (IgAN)
+
+**Epidemiology of original disease:**
+- Most common primary GN worldwide
+- Progressive course; 40-50% progress to ESRD by 20 years
+
+**Recurrence in transplant:**
+- **Incidence:** 40-50% (highest among common GN types)
+- **Clinical recurrence (symptoms/proteinuria):** 15-25%
+- **Graft loss from recurrence:** 5-10% by 10 years
+
+**Histologic recurrence:**
+- Definition: IgA deposits on immunofluorescence in allograft kidney
+- May be asymptomatic (protocol biopsy detected) or symptomatic (hematuria, proteinuria)
+- IgA1-dominant deposits (similar to original disease)
+
+**Risk factors for recurrence:**
+- Younger age at transplant (<30 years)
+- Rapid progression to original ESRD
+- Male gender
+- Asian ethnicity (possibly)
+- Prior transplant loss to IgAN
+
+**Clinical presentation of recurrent IgAN:**
+- Hematuria (may be gross, usually microscopic)
+- Proteinuria (progressive; range 0.5-5+ g/day)
+- Rising creatinine (months-years of proteinuria; then decline)
+- Usually mild hypertension
+
+**Diagnosis:**
+- **Protocol biopsy:** Best detection method (many asymptomatic recurrences)
+- **Clinical presentation:** Hematuria + proteinuria suspicious for recurrence
+- **Electron microscopy:** IgA deposits; waxy inclusions
+- **Staging:** Vary by severity (Haas classification or similar)
+
+**Management of recurrent IgAN:**
+- **Prevention of recurrence:** Higher-intensity IS (some evidence; not absolute)
+- **If early asymptomatic recurrence:** Observe with proteinuria monitoring
+- **If symptomatic or progressive proteinuria:**
+  - ACE inhibitor/ARB (RAS blockade; reduce proteinuria)
+  - Intensive proteinuria reduction (<1 g/day target)
+  - Blood pressure control
+  - Possible steroid therapy (controversial; some use pulse methylprednisolone + oral steroids)
+  - Fish oil (omega-3 fatty acids): Mixed evidence; some centers use empirically
+  - CNI optimization (adequate levels)
+
+- **Emerging therapies:**
+  - RAAS inhibition (ARB or ACE-I as above)
+  - Mycophenolate at higher doses (uncertain benefit)
+  - Rituximab (B-cell depletion): Limited data; anecdotal reports
+
+**Prognosis of recurrent IgAN:**
+- Asymptomatic recurrence: Slow or no progression; may remain stable
+- Symptomatic recurrence: Progressive; median graft survival 15-20 years (vs. 20+ without recurrence)
+- Severe recurrence: May progress to graft failure in 5-10 years
+
+---
+
+### 2.2 Focal Segmental Glomerulosclerosis (FSGS)
+
+**Epidemiology:**
+- Primary FSGS: 5-15% of primary GN; variable progression
+- Secondary FSGS: Obesity, hypertension, reflux
+
+**Recurrence in transplant:**
+- **Incidence:** 30-50% (very high; concerning disease for retransplantation)
+- **Circulating permeability factor:** Thought to mediate recurrence (soluble factor in plasma)
+- **Immediate recurrence:** Can occur within hours-days post-transplant (proteinuria within 24-48 hours)
+- **Graft loss from recurrence:** 10-30% by 10 years
+
+**Pathogenesis of recurrence:**
+- Circulating factor (likely immune-mediated) damages glomerular podocytes
+- Results in increased glomerular permeability
+- Proteinuria (nephrotic range typical) triggers sclerosis
+
+**Risk factors for recurrence:**
+- Rapid progression of original disease (ESRD in <2 years) → very high risk
+- Young age at transplant
+- African American race
+- Prior transplant loss to FSGS (>50% recur in second graft)
+- Serum from recurrent recipient can cause proteinuria in culture systems (functional test)
+
+**Clinical presentation:**
+- Heavy proteinuria (often nephrotic: >3.5 g/day) immediate post-transplant or early
+- May be accompanied by albuminuria, edema
+- Hematuria less common than in IgAN
+- Rising creatinine if severe proteinuria causes tubulointerstitial inflammation
+
+**Diagnosis:**
+- **Kidney biopsy:** Gold standard; shows sclerotic lesions, foot process fusion on EM
+- **Serum albumin:** May be low if heavy proteinuria ongoing
+- **Serum/urine protein:** Quantify proteinuria
+
+**Management of recurrent FSGS:**
+- **Prevention:** Higher-intensity IS (some evidence; not absolute)
+- **Plasmapheresis:** First-line for recurrence (removes circulating factor)
+  - 5-10 sessions; some patients respond dramatically (proteinuria resolution)
+  - Infuse normal donor plasma or albumin
+  - Efficacy: 30-50% have significant proteinuria reduction
+  - Risk: Infections, other complications; limited benefit in some
+
+- **Immunosuppression:**
+  - ACE inhibitor/ARB (reduce proteinuria)
+  - Target high CNI levels (more aggressive than other diseases; aim 12-15 ng/mL)
+  - Adequate MPA dosing
+  - Consider additional agents if progressive despite above
+
+- **Monoclonal antibodies:**
+  - Rituximab (B-cell depletion): Limited data; variable results
+  - Abatacept (T-cell costimulation blockade): Emerging data; some reported successes
+
+- **Symptomatic management:**
+  - Diuretics for edema
+  - Lipid management (dyslipidemia common with proteinuria)
+  - Blood pressure control
+
+**Prognosis:**
+- With plasmapheresis + IS: 30-50% have remission of proteinuria
+- Progressive cases: Median graft survival 5-10 years from recurrence
+- Second transplant risk: Very high recurrence (>50%); careful consideration needed
+
+---
+
+### 2.3 Lupus Nephritis
+
+**Epidemiology:**
+- Systemic lupus erythematosus (SLE) affects 80% kidney; 10-20% progress to ESRD
+
+**Recurrence in transplant:**
+- **Incidence:** Low (~5-10%) if original disease in remission
+- **Very high risk:** If transplant done while SLE active
+- **Graft loss from recurrence:** Rare (<2%)
+
+**Prerequisites for transplant in SLE:**
+- **Disease remission:** Documented stable disease on therapies
+- **Adequate immunosuppression:** Ensure no SLE flare
+- **Duration on dialysis:** Often recommended to wait 6+ months to ensure remission
+
+**Risk factors for recurrent lupus nephritis:**
+- Transplant during active SLE (major risk factor)
+- Non-adherence to immunosuppression
+- Suboptimal IS intensity
+- Female gender
+- Young age
+
+**Clinical presentation of recurrence:**
+- Rising antibodies (anti-dsDNA, anti-C1q) often precede clinical recurrence
+- Hematuria, proteinuria
+- Rising creatinine
+- May be accompanied by systemic signs (rash, arthritis, serositis)
+
+**Management of recurrent lupus nephritis:**
+- **Prevent recurrence:** Ensure SLE remission before transplant; use aggressive IS
+- **Immunosuppression:** High-intensity regimen recommended
+  - Consider mycophenolate (may reduce SLE activity)
+  - Adequate CNI levels
+  - Hydroxychloroquine continuation (reduces SLE flares)
+
+- **If recurrence occurs:**
+  - Rheumatology consultation
+  - Increase IS intensity
+  - Plasmapheresis for severe presentations
+  - Pulse methylprednisolone if acute flare
+
+**Prognosis:**
+- With adequate disease remission and IS: Good prognosis; recurrence rare
+- If recurrent: Can progress; but many remain stable with IS escalation
+
+---
+
+### 2.4 Membranoproliferative Glomerulonephritis (MPGN)
+
+**MPGN type-related recurrence:**
+
+**MPGN-C3 (C3 glomerulopathy):**
+- Dense intramembranous deposits with dominant C3 on IF
+- Mediated by complement alternative pathway dysregulation
+- Recurrence: 40-50% (high)
+- Mechanism: Underlying genetic or acquired complement dysregulation persists
+
+**MPGN-immune complex (IC-MPGN):**
+- Recurrence: 20-30%
+- Mechanisms vary by etiology (post-infectious, lupus, others)
+
+**MPGN-cryoglobulinemia (associated with HCV):**
+- Recurrence: Rare if cryoglobulins cleared
+- HCV treatment with DAAs can improve outcomes
+
+**Clinical presentation:**
+- Hematuria, proteinuria
+- Hypertension
+- Variable progression rates
+
+**Management:**
+- **Prevention:** CAV control, hypertension management
+- **ACE-I/ARB:** Standard for all proteinuric GN
+- **Complement inhibition (C3 glomerulonephritis):** Emerging
+  - Factor H replacement (eculizumab), Factor B inhibitors (pegcetacoplan)
+  - Limited transplant data; more experience in native kidney
+
+**Prognosis:**
+- Variable; depends on complement dysregulation severity
+- C3GN: 20-30% lose graft to recurrence by 10 years
+
+---
+
+### 2.5 ANCA-Associated Vasculitis (AAV)
+
+**Epidemiology:**
+- Granulomatosis with polyangiitis (GPA), microscopic polyangiitis (MPA), eosinophilic granulomatosis with polyangiitis (EGPA)
+- Necrotizing GN; rapidly progressive without treatment
+
+**Recurrence in transplant:**
+- **Incidence:** 5-15% (lower than other GN types)
+- **Timing:** Usually late (years post-transplant)
+- **Risk with ANCA persistence:** Higher recurrence if ANCA-positive at transplant
+
+**Prerequisites for transplant:**
+- **Disease remission:** Achieved on induction therapy (cyclophosphamide, rituximab, or others)
+- **ANCA status:** Ideally negative or low-titer at transplant
+- **Wait period:** Some recommend 6+ months of remission
+
+**Management:**
+- **Induction therapy:** Ensure complete remission before transplant
+- **Maintenance:** Consider rituximab maintenance (some protocols) vs. standard IS
+- **Immunosuppression:** Adequate CNI levels; consider mycophenolate or additional agents
+
+**Prognosis:**
+- With disease remission at transplant: Good outcomes; recurrence uncommon
+- If recurrent: Can be severe; requires aggressive intervention
+
+---
+
+### 2.6 Membranous Nephropathy (MN)
+
+**Epidemiology:**
+- Primary: 20-30% of nephrotic syndrome in adults
+- Secondary: SLE, drugs, infections, others
+
+**Recurrence:**
+- **Primary MN:** 20-30% recurrence
+- **Secondary MN:** Depends on etiology remission
+
+**Pathophysiology:**
+- M-type phospholipase A2 receptor (PLA2R) antibodies (primary MN)
+- In-situ immune complex deposition and complement activation
+
+**Clinical presentation:**
+- Nephrotic proteinuria (often >3.5 g/day)
+- May be asymptomatic (proteinuria only)
+
+**Management:**
+- **ACE-I/ARB:** Proteinuria reduction
+- **Immunosuppression:** Adequate levels
+- **Rituximab:** Some evidence for benefit in recurrent MN (B-cell depletion)
+- **Monitoring:** Proteinuria trends; PLA2R antibody titers if available
+
+**Prognosis:**
+- Many with recurrence remain stable
+- 20-30% progress to graft failure over 10+ years
+
+---
+
+### 2.7 De Novo Glomerulonephritis
+
+**Definition:** New GN type not found in recipient's original kidneys
+
+**Incidence:** 5-15% of allografts
+
+**Pathogenesis:**
+- Non-HLA antibodies against donor-specific glomerular antigens
+- Genetic susceptibility of recipient
+- Environmental triggers (infection, other)
+
+**Types encountered:**
+- Membranous: Most common de novo GN
+- IgA: Can be de novo in non-IgAN recipients
+- FSGS: Possible de novo (vs. recurrent in some)
+- MPGN/C3GN: De novo possible
+- Others: Rare
+
+**Clinical significance:**
+- Usually develops late (>1 year)
+- Often asymptomatic (found on protocol biopsy)
+- Slower progression than recurrent disease generally
+
+**Management:**
+- Similar to corresponding GN types
+- Usually less aggressive than recurrent disease management
+
+---
+
+## 3. DIAGNOSIS AND MONITORING FOR RECURRENT DISEASE
+
+### 3.1 Clinical Approach
+
+**Risk stratification:**
+- **Very high-risk diseases:** FSGS (>40%), IgAN (40-50%), rapidly progressive GN
+- **High-risk:** MPGN (20-40%), MN (20-30%)
+- **Moderate-risk:** Lupus (5-10% if remission), AAV (5-15%)
+- **Low-risk:** Others
+
+**Monitoring strategy by risk:**
+- **Very high-risk:** Earlier and more frequent biopsies; protocol biopsy at 1, 3, 5 years
+- **High-risk:** Protocol biopsy at 3-5 years; clinical monitoring annually
+- **Moderate-risk:** Clinical monitoring; biopsy if symptoms develop
+- **Low-risk:** Clinical monitoring; biopsy as indicated
+
+**Clinical surveillance:**
+- **Urinalysis/urine sediment:** Monthly × 3, then quarterly × 1 year, then annually
+  - Hematuria, proteinuria patterns may suggest recurrence
+- **24-hour urine protein or UACR:** Quarterly × 1 year, then every 6-12 months
+  - Progressive increase concerning
+- **Renal function:** Monitor for decline
+- **Serology:** Disease-specific (anti-dsDNA for lupus, ANCA for vasculitis, etc.)
+
+---
+
+### 3.2 Diagnostic Biopsy
+
+**Indications:**
+- **Clinical symptoms:** Hematuria, proteinuria, rising creatinine
+- **Protocol biopsy:** Planned surveillance (especially high-risk diseases)
+- **Asymptomatic abnormalities:** Proteinuria development, unexplained creatinine change
+- **Diagnostic uncertainty:** Distinguish recurrence from other causes of dysfunction
+
+**Interpretation:**
+- Same Banff classification applied (native and transplant kidneys)
+- Identify GN type; stage severity
+- Assess for concurrent processes (rejection, other)
+
+---
+
+## 4. SUMMARY AND KEY CONCEPTS
+
+1. **Recurrence risk varies widely:** 40-50% IgAN, 30-50% FSGS vs. 5% lupus if remission
+
+2. **IgAN recurrence:** Common but often asymptomatic; managed with proteinuria reduction and ACE-I/ARB
+
+3. **FSGS recurrence:** Aggressive; requires plasmapheresis, high-intensity IS; high graft loss risk
+
+4. **Lupus nephritis:** Low recurrence if SLE in remission at transplant; good outcomes expected
+
+5. **De novo GN:** 5-15% incidence; membranous most common; slower progression typically
+
+6. **Monitoring strategy:** Risk-stratified; protocol biopsies important for high-risk diseases
+
+7. **Management principles:** RAS blockade universal (proteinuria reduction); disease-specific therapies as indicated
+
+---
+
+**Document Version:** 1.0  
+**Evidence Base:** Kidney Disease: Improving Global Outcomes (KDIGO), Banff Classification, Peer-Reviewed Literature (2020-2025)
+

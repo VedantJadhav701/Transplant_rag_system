@@ -1,0 +1,203 @@
+Document: DOCUMENT 20: LIVER TRANSPLANT - DONOR EVALUATION AND PERIOPERATIVE MANAGEMENT
+Chunks: 7
+Organ: liver
+================================================================================
+
+[Doc_20_Liver_Donor_Periop:chunk_000] 1.1 Donor Quality Assessment
+Tokens: 128
+--------------------------------------------------------------------------------
+Standard criteria donor (SCD):
+Age <60 years
+No steatosis on histology, or <20% macrovascular steatosis
+AST/ALT <2× upper limit of normal
+Negative culture
+Stable hemodynamics (MAP >70 mmHg)
+No significant liver disease
+
+Extended criteria donor (ECD) characteristics:
+Age >60 years (particularly >70)
+Elevated transaminases (AST/ALT >2× ULN)
+Fatty infiltration (>20% macrovascular steatosis on biopsy)
+Steatohepatitis (NASH): Fatty infiltration + inflammation/fibrosis
+Cold ischemia time >12 hours
+DCD donation (donation after cardiac death)
+Hepatitis C seropositive (historically; now often transplanted with DAA therapy)
+Mild-moderate renal dysfunction (GFR 50-80)
+
+Donor risk index (DRI):
+Quantifies donor quality; used to match with recipient risk
+Higher DRI = higher risk graft
+Recipients with good expected function (lower MELD) → may match with higher DRI organs
+Recipients sicker → prefer lower DRI organs (less risk)
+
+[Doc_20_Liver_Donor_Periop:chunk_001] 1.2 Hepatic Steatosis Assessment
+Tokens: 111
+--------------------------------------------------------------------------------
+Clinical significance:
+Macrovascular steatosis (>30%) → significantly increases primary graft dysfunction, early dysfunction risk
+Microvascular steatosis → less prognostic value; may be reversible with reperfusion
+
+Assessment methods:
+Visual inspection (intraoperative): Experienced surgeon can estimate
+Liver biopsy (percutaneous): Gold standard for histology
+Indications: ECD donor, elevated transaminases, imaging suggests steatosis
+Grading: % macrovascular steatosis (goal <20-30%)
+If >30-40%: High risk; decline or use cautiously
+Imaging (ultrasound, CT): Qualitative assessment
+Hyperechoicity (ultrasound) suggests steatosis
+Less specific than biopsy; not reliable for degree
+
+Management if steatosis present:
+Avoid further risk (e.g., if also older, consider declining)
+Match with lower-MELD recipient (more functional reserve)
+Minimize cold ischemia time
+Consider machine perfusion (may improve recovery)
+
+---
+
+[Doc_20_Liver_Donor_Periop:chunk_002] 1.3 Viral and Serologic Status
+Tokens: 101
+--------------------------------------------------------------------------------
+Hepatitis C (HCV):
+Historically contraindication
+Now: Many centers transplant HCV+ donors to HCV+ recipients
+Rationale: Antiviral therapy (DAAs) can cure HCV post-transplant; outcomes excellent
+Also: HCV+ organs to HCV− recipients if carefully managed (rare)
+
+Hepatitis B (HBV):
+HBsAg+ donor: Relative contraindication traditionally
+Now: Transplant to HBsAg− recipient with HBIG + antivirals
+HBIG (hepatitis B immunoglobulin) passive prophylaxis
+Antivirals (entecavir, tenofovir) prevent reinfection
+Outcomes improved with modern prophylaxis
+
+HIV:
+Historically absolute contraindication
+Emerging: HIV+ organs to HIV+ recipients with controlled CD4 >200
+Limited experience; specialized centers only
+
+CMV/EBV status:
+Documented; guides prophylaxis
+D+R− higher risk for CMV disease (standard prophylaxis applies)
+
+---
+
+[Doc_20_Liver_Donor_Periop:chunk_003] 2.2 Operative Technique
+Tokens: 128
+--------------------------------------------------------------------------------
+Donor hepatectomy:
+Standard ex situ technique: Liver removed, flushed with cold solution on back table
+In situ flush: Aortic cannulation; cold solution infused through hepatic artery; vena cava vented
+Careful dissection: Preserve all structures (hepatic artery, portal vein, bile duct, suprahepatic/infrahepatic IVC)
+Portal vein/hepatic artery backflushing to clear blood, reduce IRI
+
+Allograft preservation:
+Cold preservation solution: UW or HTK
+Flush volume: 500-1000 mL
+Temperature: 0-4°C (hypothermia reduces metabolism)
+Transport: Sterile container, ice, rapid transport
+
+Cold ischemia time:
+Acceptable: Up to 12-15 hours (preferably <8 hours)
+Effect: Each hour increases primary graft dysfunction risk ~1-2%
+>20 hours: Significantly increased dysfunction, ischemic cholangiopathy risk
+
+Machine perfusion (emerging):
+HOPE (hypothermic oxygenated perfusion): Reduces ischemic cholangiopathy in ECD livers
+Normothermic perfusion: Experimental; enables assessment, potential "reconditioning"
+Benefits: Improved function; extended preservation window
+
+[Doc_20_Liver_Donor_Periop:chunk_004] 2.4 Recipient Hepatectomy and Allograft Implantation
+Tokens: 238
+--------------------------------------------------------------------------------
+Native hepatectomy:
+Dissection: Around hepatic hilum, careful hemostasis
+Vascular control: Infrahepatic IVC clamped; suprahepatic IVC clamped
+Hepatic artery: Divided and ligated
+Portal vein: Divided and ligated
+Bile duct: Divided and ligated
+Liver removed: Careful to avoid spillage
+
+Anhepatic phase:
+Duration: 30-120 minutes typically (vascular clamps in place)
+Hemodynamic management: Relative hypotension expected (decreased venous return); support with fluids, vasopressors
+Coagulopathy: Severe in this phase; massive transfusion risk
+
+Allograft implantation:
+
+Suprahepatic IVC anastomosis (piggyback technique increasingly common):
+Graft suprahepatic vein anastomosed to recipient IVC (end-to-side)
+Preserves recipient IVC flow (lower hemodynamic impact)
+Clamping: Suprahepatic IVC clamped above anastomosis; no aortic cross-clamp needed
+
+Infrahepatic IVC anastomosis (traditional):
+Graft infrahepatic vein anastomosed to recipient infrahepatic IVC (end-to-end)
+Requires aortic cross-clamping (if vena cava below renal veins also clamped)
+More hemodynamic impairment
+
+Portal vein anastomosis:
+Graft portal vein anastomosed to recipient portal vein (end-to-end, or end-to-side)
+Typical: End-to-end to avoid stenosis
+
+Hepatic artery anastomosis:
+Graft hepatic artery to recipient hepatic artery (end-to-end)
+Alternative: Aortic interposition (if severe recipient atherosclerosis)
+
+Bile duct anastomosis:
+Duct-to-duct (most common): Graft common bile duct anastomosed to recipient common bile duct
+Requires patent recipient bile duct
+Advantage: Preserves sphincter of Oddi function; allows endoscopic management if stricture
+Choledochocholedochostomy (duct-to-duct variant)
+Choledochojejunostomy: If recipient bile duct unavailable (post-cholecystectomy with failed ERCP, PSC with complex strictures)
+Roux-en-Y jejunal loop anastomosed to graft bile duct
+Advantage: Single anastomosis, no sphincter obstruction
+Disadvantage: Ascending cholangitis risk higher; harder to access endoscopically
+
+---
+
+[Doc_20_Liver_Donor_Periop:chunk_005] 3.1 Early Graft Function
+Tokens: 100
+--------------------------------------------------------------------------------
+Immediate function (most common; ~70%):
+Rapid INR correction (by 2-4 hours)
+Early bile production
+Creatinine begins declining (as renal perfusion improves)
+Excellent outcomes expected
+
+Slow graft function (~20-25%):
+Gradual INR improvement (takes days)
+Delayed bile production
+High bilirubin, transaminases
+Coagulopathy persists 2-7 days
+Manage with close monitoring, ICU support
+Most eventually recover full function
+
+Primary graft dysfunction (PGD; ~5-15%):
+Severe dysfunction: Coagulopathy persists, jaundice profound, graft failure imminent
+Severe PGD mortality: 40-60% require retransplantation
+Definition varies (fulminant, severe; based on INR, bilirubin, transaminases at 3-7 days)
+
+Primary graft non-function (very rare; <1%):
+Complete loss of function
+Retransplantation required emergently
+
+---
+
+[Doc_20_Liver_Donor_Periop:chunk_006] 4. SUMMARY AND KEY CONCEPTS
+Tokens: 107
+--------------------------------------------------------------------------------
+1. Donor quality: SCD vs. ECD classification; DRI quantifies risk
+2. Steatosis assessment: Biopsy gold standard; >30% increases graft dysfunction risk
+3. HCV+ donors: Now acceptable with DAA therapy; improved outcomes
+4. Cold ischemia time: <8 hours preferred; >20 hours high risk for dysfunction
+5. Machine perfusion: HOPE reduces ischemic cholangiopathy in ECD livers
+6. Perioperative hemodynamics: Careful fluid management, vasopressor support needed
+7. Bile duct anastomosis: Duct-to-duct preferred; choledochojejunostomy if duct unavailable
+8. Immediate graft function: ~70% excellent; ~20-25% slow; ~5-15% primary graft dysfunction
+9. Early complications: Vascular (HAT, PVT), biliary (leak, stricture), hemorrhage
+
+---
+
+Document Version: 1.0 
+Evidence Base: AASLD, AST, EASL, Peer-Reviewed Literature (2020-2025)
+

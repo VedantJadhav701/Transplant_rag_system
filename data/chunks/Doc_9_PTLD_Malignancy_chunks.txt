@@ -1,0 +1,115 @@
+Document: DOCUMENT 9: POST-TRANSPLANT MALIGNANCY - PTLD AND SOLID TUMORS
+Chunks: 4
+Organ: foundational
+================================================================================
+
+[Doc_9_PTLD_Malignancy:chunk_000] 1.1 Definition and Epidemiology
+Tokens: 100
+--------------------------------------------------------------------------------
+Definition: PTLD is a lymphoid proliferation disorder developing after organ transplantation, ranging from early lymphoid hyperplasia to frank lymphoma (typically B-cell non-Hodgkin lymphoma or Hodgkin-like disease). Incidence by organ type:
+Intestine: 20-30% (highest risk)
+Heart: 5-10%
+Lung: 5-10%
+Liver: 2-5% (relatively low; liver immunologically privileged)
+Kidney: 1-4%
+
+Risk factors for PTLD:
+EBV seronegative recipient (D+R−): 5-10% risk vs. <1% in seropositive recipients
+T-cell depleting induction: rATG, alemtuzumab → 2-3× higher risk vs. basiliximab
+High CNI/antimetabolite levels: Intense immunosuppression
+Organ type: Intestine > Heart/Lung > Liver/Kidney
+Age: Pediatric recipients higher risk than adults
+Repeated episodes of rejection: Treated with augmented IS
+
+[Doc_9_PTLD_Malignancy:chunk_001] 1.5 Diagnosis
+Tokens: 145
+--------------------------------------------------------------------------------
+Laboratory studies:
+EBV PCR (quantitative): Elevated EBV load (>100,000 copies/mL) concerning but not diagnostic
+CBC: Leukocytosis, atypical lymphocytosis, anemia, or thrombocytopenia
+LFTs, renal function: Assess organ involvement
+Lactate dehydrogenase: Elevated in lymphoma; prognostic marker
+
+Imaging:
+CT chest/abdomen/pelvis: Nodal size, organ involvement, extranodal disease
+PET-CT: Functional imaging; avidity helps differentiate PTLD from inflammation/infection; staging
+Endoscopy/colonoscopy: If GI involvement suspected (obtain biopsies)
+
+Histopathology (mandatory for diagnosis):
+Biopsy: Excision preferred; core biopsy acceptable if excision not feasible
+Immunophenotyping: Flow cytometry or immunohistochemistry to assess clonality (monoclonal vs. polyclonal)
+EBV testing: EBER in situ hybridization (quantify EBV+ cells)
+Cytogenetics/molecular: For monomorphic PTLD (Myc translocation in Burkitt, etc.) Staging (Lugano classification for lymphomas):
+Stage I: Single nodal group or single extranodal organ
+Stage II: Multiple nodal groups or localized extranodal involvement
+Stage III: Involvement of abdomen and/or above diaphragm
+Stage IV: Diffuse involvement, marrow, CNS, or multiple extranodal sites
+
+---
+
+[Doc_9_PTLD_Malignancy:chunk_002] 3.2 Skin Cancers (Most Common)
+Tokens: 144
+--------------------------------------------------------------------------------
+Epidemiology:
+40-50× higher risk of squamous cell carcinoma (SCC) vs. general population
+10× higher risk of basal cell carcinoma (BCC)
+3-5× higher melanoma risk
+Merkel cell carcinoma: 20-40× higher
+
+Risk factors:
+Duration and intensity of immunosuppression (especially CNI, higher risk than mTOR)
+UV exposure (latitude, outdoor activities)
+Age at transplantation
+Skin phototype (fair skin > dark skin)
+Prior skin cancer history
+
+Presentation:
+SCC: Often in sun-exposed areas; rapid growth; can be aggressive
+BCC: Basal cell type; slower growth; rarely metastasizes
+Melanoma: Can be aggressive; early detection critical
+
+Management:
+Surveillance: Annual full-body skin examination by dermatologist; self-examination monthly
+Prevention: Strict sun protection (SPF 50+, protective clothing, limited sun exposure 10 AM-4 PM)
+Treatment: Excision with clear margins; Mohs micrographic surgery for select SCC; consider sentinel node biopsy for melanoma
+IS modification: Consider mTOR inhibitor (sirolimus) conversion for recurrent skin cancers; some evidence for reduced recurrence
+
+[Doc_9_PTLD_Malignancy:chunk_003] 3.3 Solid Tumors (Organ-Specific)
+Tokens: 208
+--------------------------------------------------------------------------------
+Renal cell carcinoma (RCC):
+3-6× higher incidence in transplant recipients
+Often in native kidneys (can occur in allograft)
+Risk factors: Chronic kidney disease, smoking, obesity, immunosuppression
+Presentation: Hematuria, flank pain, constitutional symptoms
+Screening: Annual ultrasound or CT (no clear benefit shown; surveillance tailored to risk)
+Management: Nephrectomy (native or allograft depending on location/size); systemic therapy for metastatic disease
+
+Hepatocellular carcinoma (HCC):
+High risk in liver transplant recipients with HCV or HBV
+Also occurs in non-viral liver disease
+Screening: Ultrasound ± AFP every 3-4 months in high-risk recipients
+Management: Resection, transplantation (if within Milan criteria), ablation, or systemic therapy
+
+Lung cancer:
+Increased risk, especially in smokers
+Screening: Consider low-dose CT in high-risk (smokers, significant smoking history)
+Management: Standard oncologic approaches (resection, chemo, immunotherapy)
+
+Colorectal, breast, prostate, cervical cancer:
+Modestly increased risk (2-3×)
+Standard age-appropriate screening applies
+Some centers recommend earlier/more frequent screening
+
+Virus-associated cancers:
+HPV-related: Cervical, anal, oropharyngeal cancers (higher risk; aggressive)
+Vaccination pre- or post-transplant can reduce incidence
+Screening: Pap smear (cervix), anal cytology in high-risk
+HBV-related: HCC (in recipients with chronic HBV)
+Screening: Ultrasound + AFP
+HCV-related: HCC (in recipients with chronic HCV)
+Direct-acting antivirals (DAAs) cure HCV; may reduce HCC risk
+Kaposi sarcoma (HHV-8): Rare in immunosuppressed non-HIV transplant recipients; more common in HIV+/HHV-8+ recipients
+
+---
+

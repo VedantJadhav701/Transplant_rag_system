@@ -1,0 +1,722 @@
+Document: DOCUMENT 4: IMMUNOSUPPRESSIVE DRUGS - MECHANISM OF ACTION AND PHARMACOLOGY
+Chunks: 18
+Organ: foundational
+================================================================================
+
+[Doc_4_Immunosuppressive_Drugs:chunk_000] 1. OVERVIEW: TARGETS IN THE IMMUNE RESPONSE
+Tokens: 123
+--------------------------------------------------------------------------------
+The immune response to transplanted organ proceeds through distinct stages, each presenting therapeutic targets[1]:
+
+| Stage | Target Cells/Molecules | Drugs | Mechanism |
+|-------|----------------------|-------|-----------|
+| Antigen Presentation | Dendritic cells, APC | Corticosteroids, CNI, Monoclonal Abs | Block costimulation, IL-2 production |
+| T-Cell Priming | T-cell receptor, Costimulation (CD28) | CNI, Belatacept, Monoclonal Abs | Block TCR signaling, CD28-B7 interaction |
+| T-Cell Proliferation | IL-2R signaling, DNA synthesis | Antimetabolites (MPA, AZA), mTOR inhibitors | Reduce nucleotide synthesis; block mTOR |
+| B-Cell Response | B-cell activation, Germinal centers | Rituximab, other monoclonal Abs | Deplete B cells, plasma cells |
+| Effector Function | T-cell trafficking, cytokine production | Corticosteroids, CNI | Reduce cytokine production, cell migration |
+
+---
+
+[Doc_4_Immunosuppressive_Drugs:chunk_001] 2.1 Mechanism of Action
+Tokens: 129
+--------------------------------------------------------------------------------
+Calcineurin enzyme:
+Calcineurin (also called protein phosphatase 2B) is a serine-threonine phosphatase that plays a critical role in T-cell activation[1]:
+
+1. When T-cell receptor (TCR) engages antigen-HLA complex and CD28 receives costimulation, calcium enters the T cell
+2. Increased intracellular Ca²⁺ activates calcineurin
+3. Calcineurin dephosphorylates NFAT (nuclear factor of activated T cells)
+4. Dephosphorylated NFAT translocates to nucleus
+5. NFAT binds to IL-2 promoter region
+6. IL-2 gene transcription occurs
+7. IL-2 protein produced; binds IL-2 receptor on T cells → T-cell proliferation
+
+CNI action:
+Tacrolimus binds FK-binding protein (FKBP12), forming a complex that inhibits calcineurin
+Cyclosporine binds cyclophilin, forming a complex that inhibits calcineurin
+Both complexes are highly specific, potent calcineurin inhibitors
+Block IL-2 and other pro-inflammatory cytokine (TNF-α, IFN-γ, IL-4, IL-5) production
+T-cell proliferation suppressed dramatically
+
+[Doc_4_Immunosuppressive_Drugs:chunk_002] 2.2 Tacrolimus (Prograf, FK506)
+Tokens: 361
+--------------------------------------------------------------------------------
+Chemical properties:
+Macrolide antibiotic analog
+Highly lipophilic
+Molecular weight 822 Da
+
+Pharmacokinetics:
+
+| Parameter | Value |
+|-----------|-------|
+| Bioavailability (PO) | 7-20% (wide variability; fasting vs. fed state markedly affects) |
+| Protein binding | 98-99% (primarily albumin, α1-acid glycoprotein) |
+| Tmax | 1-3 hours (varies with formulation) |
+| Distribution | Large volume of distribution; tissue accumulation |
+| Metabolism | CYP3A4/3A5 (primarily; minor CYP2D6) |
+| Elimination | Hepatic metabolism; <1% renal excretion of unchanged drug |
+| Half-life | 12-15 hours (wide range 8-24 hours; influenced by GFR, liver function) |
+| Therapeutic level | 5-15 ng/mL (varies by assay, time post-transplant, organ type) |
+
+Formulations:
+Immediate-release (BID dosing): Traditional formulation; requires BID dosing; unpredictable absorption
+Extended-release (Advagraf, Astagraf XL): Once-daily formulation; more consistent trough levels; convenient
+IV formulation: For patients unable to take PO (perioperative, ICU); rapid infusion (>1 hour) to avoid cardiotoxicity
+
+Advantages over cyclosporine:
+More potent (lower doses needed)
+Better oral bioavailability (though still variable)
+Faster onset of action
+Lower incidence of gingival hyperplasia, hirsutism
+Less hypertension
+Fewer drug interactions (though still significant)
+Lower cardiovascular event risk
+
+Disadvantages:
+Nephrotoxicity (major concern; dose-limiting toxicity)
+Neurotoxicity (tremor, headache, encephalopathy at high levels)
+Hyperglycemia (dose-dependent; post-transplant diabetes mellitus risk)
+Hypertension
+Hyperlipidemia
+Gingival hyperplasia (less common than cyclosporine, but occurs)
+Alopecia
+Variable PO absorption (especially early post-transplant with diarrhea, vomiting)
+Interactions with CYP3A4/3A5 substrates
+
+Drug interactions (CYP3A4/3A5 inducers/inhibitors):
+
+| Effect | Drugs | Action |
+|--------|-------|--------|
+| Increase tacrolimus levels | Diltiazem, verapamil (calcium channel blockers); azole antifungals (fluconazole, itraconazole); macrolide antibiotics (erythromycin, azithromycin); protease inhibitors | Inhibit CYP3A4 → reduce tacrolimus metabolism |
+| Decrease tacrolimus levels | Rifampin, rifabutin; phenytoin; carbamazepine; St. John's Wort | Induce CYP3A4 → increase tacrolimus metabolism |
+| Mutual interaction | Other CNI substrates | Variable levels; monitoring essential |
+
+Monitoring:
+Therapeutic drug monitoring (TDM): Trough level measurement (just before next dose) using HPLC or LC-MS/MS
+Timing: Pre-dose trough most reproducible
+Target levels vary by:
+Time post-transplant (higher initially; lower at months 3-6+)
+Organ type (kidney, liver, heart, lung have different targets)
+Presence of HLA mismatch/acute rejection (higher targets)
+Baseline renal function (may require lower levels if CNI-related toxicity)
+
+---
+
+[Doc_4_Immunosuppressive_Drugs:chunk_003] 2.3 Cyclosporine (Sandimmune, Neoral)
+Tokens: 258
+--------------------------------------------------------------------------------
+Chemical properties:
+Cyclic undecapeptide (11 amino acids)
+Hydrophobic; lipophilic
+Molecular weight 1203 Da
+
+Pharmacokinetics:
+
+| Parameter | Value |
+|-----------|-------|
+| Bioavailability (PO) | 20-50% (Neoral formulation improved over Sandimmune) |
+| Protein binding | 90-98% (primarily lipoproteins; temperature-dependent) |
+| Tmax | 2-6 hours |
+| Distribution | High tissue accumulation |
+| Metabolism | CYP3A4 (primarily); also CYP2D6, 2C19 |
+| Elimination | Hepatic; biliary excretion; <1% renal |
+| Half-life | 10-27 hours (highly variable) |
+| Therapeutic level | 100-300 ng/mL (variable; depends on assay, time post-transplant) |
+
+Formulations:
+Sandimmune: Original formulation; poor, unpredictable absorption
+Neoral (microemulsion): Improved formulation; better absorption, less dependent on bile
+IV formulation: For perioperative use; slower infusion to minimize cardiotoxicity
+
+Advantages:
+Decades of use; extensive clinical experience
+Potential hepatoprotective effects (liver transplant)
+Lower incidence of post-transplant diabetes (vs. tacrolimus)
+
+Disadvantages (Many!): Lower potency: Higher doses needed than tacrolimus
+Poor oral bioavailability: Highly variable, unpredictable; affected by:
+Food intake (especially fatty foods)
+Bile flow (cholestasis increases levels)
+GI motility disorders
+Diarrhea reduces absorption
+Nephrotoxicity: Similar to tacrolimus; dose-limiting
+Hypertension: Very common; 50-80% of recipients
+Hyperlipidemia: More common than with tacrolimus
+Gingival hyperplasia: Very common (20-50%); unsightly; may require gingivectomy
+Hirsutism/hypertrichosis: Common; cosmetically problematic
+Hepatotoxicity: At high doses
+Neurotoxicity: Similar to tacrolimus
+Multiple drug interactions: CYP3A4 inhibitors/inducers markedly affect levels
+Difficult monitoring: Highly variable PK; requires frequent TDM adjustments
+Cost: More expensive than tacrolimus
+
+Drug interactions: Similar to tacrolimus (CYP3A4-mediated)
+
+Monitoring:
+TDM using HPLC or LC-MS/MS
+Requires more frequent monitoring due to unpredictability
+Target levels higher than tacrolimus for similar immunosuppression
+
+[Doc_4_Immunosuppressive_Drugs:chunk_004] 2.4 CNI-Related Adverse Effects
+Tokens: 408
+--------------------------------------------------------------------------------
+#### Nephrotoxicity (Chronic CNI Toxicity)
+
+Mechanisms:
+1. Vasoconstriction: CNI reduce nitric oxide (NO) and increase vasoconstrictive mediators (endothelin, renin-angiotensin system activation) → afferent arteriole vasoconstriction → ↓ GFR
+2. Direct tubular toxicity: Mitochondrial dysfunction, oxidative stress, apoptosis of tubular cells
+3. Interstitial fibrosis: Fibroblast activation, TGF-β signaling → collagen deposition
+4. Glomerular injury: Hyaline arteriolosis; glomerulosclerosis
+5. Arteriolar sclerosis: Hyaline thickening of arterioles in afferent vessels
+
+Clinical presentation:
+Gradual rise in serum creatinine over weeks to months
+Loss of GFR 5-10 mL/min per year (vs. 1-2 mL/min/year without CNI toxicity)
+Electrolyte abnormalities: hyperkalemia (from decreased renal perfusion, reduced aldosterone), hypomagnesemia
+Oliguria may develop if severe
+
+Risk factors:
+High CNI trough levels (>15 ng/mL for tacrolimus)
+Prolonged high-level exposure (years)
+Older age
+Pre-existing renal insufficiency
+Dehydration
+NSAIDs (worsen renal hemodynamics)
+ACE-I/ARB use (can improve, but initial rise in creatinine expected)
+
+Prevention:
+Target CNI levels appropriately: Lower levels as time post-transplant increases
+Minimize CNI exposure: Consider CNI-sparing regimens (belatacept, mTOR inhibitor-based)
+Monitor renal function closely: Serial creatinine, GFR
+Avoid concurrent nephrotoxins: NSAIDs, radiocontrast (minimize), aminoglycosides
+Optimize renal perfusion: Maintain euvolemia; avoid dehydration
+ACE-I/ARB: Provide renal protection; use if tolerated (transient Cr increase expected)
+
+Management:
+Reduce CNI dose; target lower trough levels (risk: rejection)
+Switch to alternative agent (belatacept, mTOR inhibitor; less data on reversal of established toxicity)
+Aggressive management of hypertension, proteinuria
+Monitor for progression to end-stage renal disease
+
+#### Hyperglycemia and Post-Transplant Diabetes Mellitus (PTDM)
+
+Incidence: 
+Tacrolimus: 15-25% new-onset PTDM (vs. 5-10% with cyclosporine)
+Risk factors: Tacrolimus use, African American race, older age, obesity, family history of diabetes
+
+Mechanisms:
+β-cell dysfunction: CNI inhibit calcineurin in pancreatic β cells → reduced insulin secretion in response to glucose
+Insulin resistance: CNI may impair insulin signaling (PI3K pathway)
+Genetic predisposition: Increased incidence in those with genetic susceptibility to type 2 diabetes
+
+Management:
+Prevention: Minimize CNI doses; screen for risk factors
+Monitoring: Fasting glucose, HbA1c at baseline, 3-6 months, annually
+Treatment: Lifestyle modification (diet, exercise); oral agents (metformin preferred); insulin if severe
+Note: Once diagnosed, difficult to reverse even with CNI minimization
+
+#### Hypertension
+
+Incidence: 50-80% of transplant recipients on CNI
+
+Mechanisms:
+Renal vasoconstriction → activation of renin-angiotensin system
+Sympathetic nervous system activation
+Reduced NO production → loss of vasodilation
+Increased endothelin production
+Sodium retention
+
+Management:
+First-line: ACE-I or ARB (block RAAS; provide renal protection; reduce proteinuria)
+Second-line: Calcium channel blockers (diltiazem, verapamil; also inhibit CYP3A4 → increase CNI levels—double benefit)
+Third-line: Beta-blockers, diuretics as needed
+Target: <130/80 mmHg (cardiovascular risk reduction)
+
+---
+
+[Doc_4_Immunosuppressive_Drugs:chunk_005] 3.2 Mycophenolate Mofetil (MMF)
+Tokens: 259
+--------------------------------------------------------------------------------
+Pharmaceutical form:
+Pro-drug: rapidly metabolized to active MPA
+Formulation: Gelatin capsules or tablets
+Dosing: 500-1500 mg BID (1-3 g daily)
+
+Pharmacokinetics:
+
+| Parameter | Value |
+|-----------|-------|
+| Route | Oral |
+| Protein binding | 97% (albumin) |
+| Metabolism | Rapid ester hydrolysis → MPA → glucuronidation → MPAG (inactive metabolite) |
+| MPAG enterohepatic recirculation | 40-50%; may increase bioavailability with higher MPA exposure |
+| Tmax | 0.5-2 hours |
+| Half-life (MPA) | 16-18 hours |
+| Bioavailability | 94% (rapid absorption) |
+| Renal elimination | 87% renal (MPAG); renal impairment may increase MPAG levels |
+
+Advantages:
+Potent lymphocyte suppression
+GI absorption rapid; predictable levels
+Relatively safe toxicity profile
+Can be used in combination with CNI and corticosteroids
+Doses can be escalated as needed
+Better outcomes vs. AZA in some studies
+
+Disadvantages:
+GI toxicity: Most common side effect
+Dose-dependent diarrhea (15-30% at higher doses)
+Nausea, vomiting (20-30%)
+Dyspepsia
+Abdominal cramps
+Neutropenia: Can develop; requires monitoring
+Infection risk: Similar to other immunosuppressants
+Reproductive toxicity: Highly teratogenic (Category X); absolute contraindication in pregnancy
+Cost: Expensive (though generic available)
+
+Monitoring:
+Complete blood count: Monitor for neutropenia
+No established TDM (unlike CNI); dosing based on clinical response and toxicity
+Emerging: Some centers use MPA level monitoring (IMPDH activity or AUC measurement); limited clinical utility
+Liver function tests (baseline)
+
+Interactions:
+Antacids: Reduce MPA absorption; separate dosing by ≥2 hours
+Iron supplements: Reduce MPA absorption; separate dosing
+Acyclovir/valacyclovir: Competition for renal tubular secretion; may increase both drug levels
+Azathioprine/AZA: Avoid concurrent use (both target same pathway; no additive benefit)
+
+[Doc_4_Immunosuppressive_Drugs:chunk_006] 3.3 Enteric-Coated Mycophenolate (EC-MPA, Myfortic)
+Tokens: 116
+--------------------------------------------------------------------------------
+Pharmaceutical form:
+Enteric-coated tablet; delayed-release formulation
+Designed to release in small intestine (pH-dependent)
+Dosing: 360-720 mg BID (equivalent to 1-1.5 g MMF BID)
+
+Rationale for development:
+Reduce GI side effects (MPA concentration in colon believed responsible for diarrhea)
+Maintain efficacy
+
+Pharmacokinetics:
+Delayed tmax (2-3 hours vs. 0.5-2 hours for MMF)
+Peak levels lower; more prolonged absorption
+AUC comparable to MMF (similar total drug exposure)
+Bioavailability ~70% of MMF (hence higher dosing for equivalence)
+
+Advantages over MMF:
+Reduced GI toxicity: Less diarrhea, nausea in some studies (not all)
+Convenient dosing: BID (vs. QID)
+Less drug interaction with antacids (though should still separate dosing)
+
+Disadvantages:
+More expensive than MMF
+May have slightly lower peak levels
+Similar teratogenicity
+
+---
+
+[Doc_4_Immunosuppressive_Drugs:chunk_007] 3.4 Azathioprine (Imuran, AZA)
+Tokens: 182
+--------------------------------------------------------------------------------
+Mechanism:
+Pro-drug metabolized to 6-mercaptopurine (6-MP)
+6-MP converted to thioinosinate → inhibits IMPDH and other enzymes in purine synthesis
+Less selective than MPA; affects other cell types more
+
+Pharmacokinetics:
+Rapid, complete absorption
+Metabolized by xanthine oxidase and thiopurine methyltransferase (TPMT)
+Half-life 0.5-3 hours
+
+Advantages:
+Lower cost: Much cheaper than MPA
+Long history: Extensive experience; safe in pregnancy (relative advantage for teratogenicity vs. MMF)
+Oral absorption: Can use if MMF not tolerated
+Dual pathway inhibition: May be slightly different from MPA
+
+Disadvantages:
+Less potent: Generally inferior outcomes vs. MPA
+GI toxicity: Similar to MMF (diarrhea, nausea)
+Bone marrow suppression: More common than MPA
+Neutropenia (dose-dependent; reversible)
+Anemia
+Thrombocytopenia
+TPMT polymorphism: Genetic variation in TPMT (slow metabolizers at risk for toxicity)
+Consider TPMT testing before initiation; dose reduce if deficient
+Drug interactions:
+Allopurinol: Inhibits xanthine oxidase → increases AZA levels; reduce AZA dose by 66-75%
+ACE-I/ARB: May increase bone marrow suppression (avoid if possible)
+Trimethoprim-sulfamethoxazole (TMP-SMX): Increased bone marrow toxicity
+Hepatotoxicity: Monitor LFTs
+Infection risk: Similar to other agents
+
+Monitoring:
+CBC: Monitor for cytopenia
+LFTs: Baseline and periodic
+TPMT testing: Consider before initiation
+
+---
+
+[Doc_4_Immunosuppressive_Drugs:chunk_008] 4.3 Adverse Effects (Extensive)
+Tokens: 167
+--------------------------------------------------------------------------------
+Corticosteroids have a vast array of side effects, particularly with prolonged use:
+
+| System | Adverse Effect | Frequency | Management |
+|--------|---|---|---|
+| Endocrine | Hyperglycemia, PTDM | Very common | Insulin, oral agents |
+| Metabolic | Dyslipidemia, hypertriglyceridemia | Very common | Statins, dietary modification |
+| Musculoskeletal | Osteoporosis, avascular necrosis | Common | Calcium, vitamin D, bisphosphonates |
+| Infectious | Increased infections | Very common | Appropriate prophylaxis, monitoring |
+| GI | Peptic ulcer disease, GI bleeding | Infrequent (low-dose) | PPI, avoid NSAIDs |
+| Psychiatric | Mood changes, psychosis | Rare-infrequent | Monitor; taper if severe |
+| Ophthalmologic | Cataracts, glaucoma | Infrequent | Annual eye exam |
+| Dermatologic | Easy bruising, striae, acne | Common | Cosmetic management |
+| Cardiovascular | Hypertension, fluid retention | Very common | Diuretics, ACE-I/ARB |
+| Neurologic | Tremor, headache | Infrequent | Monitor; adjust dose |
+| Hepatic | Mild transaminitis | Infrequent | Monitor LFTs |
+
+[Doc_4_Immunosuppressive_Drugs:chunk_009] 4.4 Steroid Minimization and Withdrawal
+Tokens: 132
+--------------------------------------------------------------------------------
+Rationale:
+Reduce adverse effects
+Improve quality of life
+Reduce PTDM incidence
+Reduce cardiovascular events
+
+Approaches:
+
+1. Steroid minimization: Taper to lowest effective dose (2.5-7.5 mg daily)
+Requires adequate other immunosuppression (CNI, antimetabolites)
+Monitor for rejection (higher risk)
+Most commonly used strategy
+
+2. Steroid-free protocols: Complete withdrawal within weeks of transplant
+Suitable for low-risk recipients (first transplant, low immunologic risk, excellent adherence)
+Requires induction therapy (lymphocyte-depleting agent)
+5-10% acute rejection risk (vs. 2-5% on maintenance steroids)
+Long-term outcomes mixed (some improved, some worse)
+Not recommended in:
+High HLA mismatch
+Pre-existing DSA
+High immunologic risk
+African American race (higher rejection risk)
+
+Steroid withdrawal protocols:
+Gradual taper over weeks to months (avoids adrenal insufficiency)
+Support with stress-dose steroids (e.g., 50 mg prednisone × 3 days) if major stressor (infection, surgery)
+Monitoring for rejection indicators
+
+---
+
+[Doc_4_Immunosuppressive_Drugs:chunk_010] 5.2 Sirolimus (Rapamune)
+Tokens: 237
+--------------------------------------------------------------------------------
+Pharmacokinetics:
+Highly lipophilic; large molecular weight (914 Da)
+Protein binding: 92%
+Metabolized by CYP3A4; ~90% biliary elimination
+Half-life: 57-63 hours (very long; requires loading dose or several weeks to reach steady state)
+Tmax: 1-3 hours
+
+Dosing:
+Loading dose: Typically 6 mg (though some skip if rapid initiation not needed)
+Maintenance: 2-5 mg daily (target trough 5-10 ng/mL early post-transplant; 3-5 ng/mL later)
+
+Advantages:
+Potent immunosuppression
+Anti-proliferative effects on SMC; may reduce vasculopathy risk
+Anti-fibrotic properties; may reduce IFTA
+No CNI-related nephrotoxicity
+Can be used with low-dose or no CNI (CNI-sparing)
+No significant drug metabolism interaction (though substrate of CYP3A4)
+
+Disadvantages:
+Delayed wound healing: Major concern perioperative
+Impaired renal function recovery: Problematic early post-transplant (especially kidney transplant with DGF)
+Dyslipidemia: Elevation of cholesterol, triglycerides
+Thrombocytopenia/anemia: Bone marrow effects; monitor CBC
+GI toxicity: Diarrhea, nausea, stomatitis
+Proteinuria: May increase existing proteinuria
+Pneumonitis: Rare but serious; increased risk especially early post-transplant
+Lymphocele: Increased risk post-operatively (impaired lymphatic healing)
+Complex drug interactions: CYP3A4 substrate; affected by CNI
+Long half-life: Requires weeks to eliminate if discontinued
+Monitoring burden: Requires frequent TDM
+
+Monitoring:
+Trough levels: HPLC or LC-MS/MS
+CBC: Monitor for cytopenias
+Lipid panel: Baseline, 1 month, 3 months, then periodically
+LFTs: Baseline and periodically
+Proteinuria: Baseline and periodic
+
+Drug interactions:
+Strong CYP3A4 substrate; significantly affected by inhibitors/inducers
+Increased levels: CNI (tacrolimus, cyclosporine), azole antifungals, diltiazem, verapamil
+Decreased levels: Rifampin, carbamazepine, phenytoin
+Mutual levels: With CNI; often requires dose reduction of both
+
+---
+
+[Doc_4_Immunosuppressive_Drugs:chunk_011] 5.3 Everolimus (Certican, Afinitor)
+Tokens: 130
+--------------------------------------------------------------------------------
+Comparison to sirolimus:
+Structural analog of sirolimus
+Similar mechanism (mTORC1 inhibition via FKBP12 complex)
+Shorter half-life (~30 hours vs. 57 hours for sirolimus)
+Faster achievement of steady state
+
+Pharmacokinetics:
+Half-life: 28-35 hours
+Protein binding: 74%
+Metabolism: CYP3A4; biliary/fecal elimination
+Tmax: 1-2 hours
+
+Dosing:
+Starting dose: 0.75 mg BID
+Target trough: 3-8 ng/mL
+Typical maintenance: 1-2 mg BID
+
+Advantages over sirolimus:
+Shorter half-life: Faster elimination if discontinued (useful if toxicity)
+BID dosing: Better compliance in some; worse in others
+Faster steady state: Can adjust quickly
+Potentially fewer drug interactions (though still CYP3A4 substrate)
+
+Disadvantages:
+Similar to sirolimus
+Requires BID dosing (vs. daily for sirolimus)
+More frequent TDM monitoring
+
+Use in transplantation:
+Less commonly used than sirolimus in US
+More commonly used in Europe
+Often combined with reduced-dose CNI ("CNI-sparing" regimens)
+
+---
+
+[Doc_4_Immunosuppressive_Drugs:chunk_012] 6.1 Mechanism of Action
+Tokens: 112
+--------------------------------------------------------------------------------
+T-cell activation requires two signals:
+
+1. Signal 1 (TCR engagement): T-cell receptor recognizes antigen-HLA complex on APC
+2. Signal 2 (costimulation): CD28 on T cell binds to B7 molecules (CD80, CD86) on APC
+If B7 engages CTLA-4 (inhibitory) instead → negative signal; T cell inactivated
+
+Belatacept action:
+Recombinant fusion protein of CTLA-4 and IgG1 Fc portion
+Binds to B7 molecules (CD80, CD86) on APC
+Blocks CD28-B7 interaction
+Prevents costimulation signal 2
+Result: T-cell anergy (inactivation without first signal); prevents T-cell activation
+
+Advantage over traditional CNI:
+Blocks costimulation pathway (earlier step than CNI)
+Potentially allows better preservation of T-cell function overall
+No nephrotoxicity (vs. CNI)
+No hyperglycemia (vs. CNI/corticosteroids)
+Potentially preserves renal function
+
+[Doc_4_Immunosuppressive_Drugs:chunk_013] 6.4 Adverse Effects and Concerns
+Tokens: 107
+--------------------------------------------------------------------------------
+Infection risk:
+Post-transplant lymphoproliferative disorder (PTLD): Increased risk vs. CNI
+~2-4% with belatacept vs. ~1% with CNI
+EBV-seropositive recipients at particular risk
+Monitor for EBV viremia; consider prophylaxis/preemptive treatment
+Management: Reduce belatacept, add CNI, rituximab if PTLD develops
+Opportunistic infections: CMV, BK virus, fungal infections
+Similar incidence to CNI-based regimens
+Appropriate prophylaxis and monitoring recommended
+
+CNS infections:
+JC virus-associated progressive multifocal leukoencephalopathy (PML): Rare but serious
+Incidence: ~0.1% (uncommon but reported)
+Monitor for neurologic symptoms; consider PML PCR if clinical concern
+
+Other adverse effects:
+Hypertension: Less than CNI (advantage)
+Dyslipidemia: Similar to CNI
+Proteinuria: Variable
+Infusion reactions: Fever, chills (rare); manageable
+Malignancy: Similar to other immunosuppressants; monitor
+
+[Doc_4_Immunosuppressive_Drugs:chunk_014] 7.1 Lymphocyte-Depleting Agents (Induction Therapy)
+Tokens: 435
+--------------------------------------------------------------------------------
+#### Rabbit Anti-Thymocyte Globulin (rATG, Thymoglobulin)
+
+Mechanism:
+Polyclonal antiserum derived from immunizing rabbits with human thymocytes
+Contains antibodies against multiple T-cell antigens (CD2, CD3, CD4, CD8, CD11a, CD18, CD25, HLA-DR, others)
+Causes T-lymphocyte depletion through:
+Apoptosis (direct)
+Complement-dependent cellular cytotoxicity (CDC)
+Antibody-dependent cellular cytotoxicity (ADCC)
+
+Dosing and Administration:
+Dose: 1.25-1.5 mg/kg daily × 7-14 days (typical 7-10 days)
+IV infusion over 4-6 hours (or longer for first dose)
+Premedication: Acetaminophen 650-1000 mg, diphenhydramine 25-50 mg, methylprednisolone 125 mg IV
+Timing: Induction therapy (started pre-operatively or day 0-1)
+
+Pharmacology:
+Polyclonal; complex PK
+Elimination: Combination hepatic/renal; not well characterized
+Half-life: Variable; approximately 3-10 days
+
+Efficacy:
+Profound T-cell depletion (CD4+ and CD8+ counts drop to near-zero during therapy)
+T-cell recovery: Gradual over weeks to months
+Prevents acute rejection very effectively: 5-10% incidence (vs. 20-30% without induction)
+
+Adverse Effects:
+
+| System | Effect | Management |
+|--------|--------|------------|
+| Infusion reactions | Fever, chills, rigors, malaise | Premedicate; antipyretics; slow infusion |
+| Hematologic | Thrombocytopenia, neutropenia | Monitor CBC; transfusions if severe |
+| Infectious | Increased risk CMV, EBV, BK, fungal | Prophylaxis; monitoring |
+| Serum sickness | Fever, rash, arthralgia (days 10-14) | Anti-histamines, NSAIDs, corticosteroids |
+| PTLD | EBV-driven B-cell proliferation | Monitor EBV; reduce IS if develops |
+| Other | Anaphylaxis (rare), tachycardia, hypertension | Monitor vitals; appropriate support |
+
+Monitoring:
+CBC: Monitor for cytopenias
+EBV PCR: Baseline, then periodically
+CMV antigen/PCR: Baseline, then monitoring
+Lymphocyte counts: Pre-dose to assess recovery
+
+#### Alemtuzumab (Campath-1H)
+
+Mechanism:
+Humanized monoclonal antibody against CD52
+CD52 present on T cells, B cells, monocytes, macrophages, dendritic cells
+Causes rapid lymphocyte depletion through CDC and ADCC
+
+Dosing:
+Various regimens; common: 0.3 mg/kg IV on day 0 and day 4 (or single 0.3-1 mg/kg dose)
+Alternative: 20 mg IV × 1-2 doses
+IV infusion; slower than rATG
+
+Advantages over rATG:
+Humanized antibody; less immunogenic
+More selective (CD52)
+Better tolerated; fewer infusion reactions
+Can be given in outpatient setting
+Faster T-cell recovery (may be advantage or disadvantage depending on context)
+
+Disadvantages:
+More profound, prolonged B-cell depletion
+May cause more severe lymphopenia
+Higher cost
+
+Efficacy and adverse effects: Similar to rATG
+
+#### Basiliximab (Simulect)
+
+Mechanism:
+Chimeric mouse-human monoclonal antibody against IL-2 receptor (CD25)
+Blocks IL-2 signaling on T cells
+Does NOT deplete T cells (blocks costimulation only)
+
+Dosing:
+20 mg IV on day 0, day 4 (or day 1, day 5)
+Pediatric: 10 mg for <35 kg
+
+Characteristics:
+Non-depleting (T cells present but inactive)
+Less immunogenic than rATG
+Better tolerated
+Less effective than depleting agents (higher acute rejection: 10-15% vs. 5-10%)
+Preferred in settings where T-cell depletion undesirable (e.g., infection risk)
+
+---
+
+[Doc_4_Immunosuppressive_Drugs:chunk_015] 7.2 B-Cell Directed Therapy: Rituximab
+Tokens: 131
+--------------------------------------------------------------------------------
+Mechanism:
+Chimeric mouse-human monoclonal antibody against CD20
+CD20 expressed on B-cell precursors through mature B cells (not on plasma cells or hematopoietic stem cells)
+Causes B-cell depletion through CDC and ADCC
+
+Dosing:
+Desensitization/rejection: 375-500 mg/m² IV × 1-2 doses
+Prophylaxis (high-risk): 100-375 mg/m² single dose
+
+Indications:
+B-cell depletion induction (controversial; limited evidence as single agent)
+Desensitization (combined with IVIG, plasmapheresis)
+Antibody-mediated rejection (combined with TPE, IVIG, other agents)
+Recurrent PTLD prevention (EBV-positive recipients at high risk)
+
+Efficacy:
+Dramatically reduces B-cell populations (90%+ depletion)
+DSA reduction when combined with plasmapheresis/IVIG
+Concerns: Long-lived bone marrow plasma cells NOT depleted → DSA rebound post-transplant
+
+Adverse effects:
+Infusion reactions (fever, chills; milder than rATG)
+Infections (especially respiratory; opportunistic)
+Severe infections rare but reported
+Serum sickness
+Hepatitis B reactivation (risk; screen and treat if positive)
+
+---
+
+[Doc_4_Immunosuppressive_Drugs:chunk_016] 8.1 Typical Modern Regimens
+Tokens: 118
+--------------------------------------------------------------------------------
+Kidney transplant (low-risk recipient):
+1. Induction: Basiliximab 20 mg day 0, day 4
+2. Maintenance: 
+Tacrolimus (target 8-12 ng/mL early, 5-8 ng/mL after month 3)
+Mycophenolate mofetil 1-1.5 g BID
+Prednisolone 5-7.5 mg daily (tapered from 40-60 mg)
+
+Kidney transplant (high-risk: HLA mismatch, sensitized):
+1. Induction: rATG 1.25 mg/kg × 7-10 days or alemtuzumab
+2. Maintenance:
+Tacrolimus (target 10-15 ng/mL initially; higher because of risk)
+MPA 1.5 g BID
+Prednisolone 7.5-10 mg daily (minimization controversial)
+Consider adding mTOR inhibitor or maintaining higher CNI
+
+Steroid-free regimen:
+1. Induction: rATG 1.25 mg/kg × 7-10 days
+2. Maintenance:
+Tacrolimus (target 8-12 ng/mL)
+MPA 1.5 g BID
+No prednisolone (or tapered off by month 1)
+Requires excellent adherence; low immunologic risk
+
+---
+
+[Doc_4_Immunosuppressive_Drugs:chunk_017] 9. KEY CONCEPTS AND SUMMARY
+Tokens: 107
+--------------------------------------------------------------------------------
+1. Multi-drug approach: Modern transplantation uses 3-4 immunosuppressive agents targeting different immune nodes
+2. CNI remain cornerstone: Tacrolimus preferred; cyclosporine declining use
+3. Antimetabolites essential: MPA superior to AZA; required for adequate suppression
+4. Steroids necessary: Despite toxicity; difficult to withdraw
+5. mTOR inhibitors: Anti-proliferative benefit; impaired renal recovery limits use
+6. Belatacept: Novel mechanism; renal-sparing; PTLD concern
+7. Biologic agents: Induction or rejection reversal; infection risk
+8. Therapeutic drug monitoring: Essential for CNI; adjust based on levels, clinical response
+9. Drug interactions: Extensive; particularly CYP3A4-mediated
+10. Adherence critical: Non-adherence → dnDSA, rejection, graft loss
+
+---
+
+Document Version: 1.0 
+Evidence Base: AST Clinical Guidelines, Peer-Reviewed Literature (2020-2025)
+

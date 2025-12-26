@@ -1,0 +1,23 @@
+# Streamlit Configuration
+# =======================
+
+[server]
+port = 8501
+headless = true
+enableCORS = false
+enableXsrfProtection = true
+
+[browser]
+gatherUsageStats = false
+serverAddress = "localhost"
+
+[theme]
+primaryColor = "#1f77b4"
+backgroundColor = "#ffffff"
+secondaryBackgroundColor = "#f0f2f6"
+textColor = "#262730"
+font = "sans serif"
+
+# API Configuration (optional - can also use environment variables)
+# [secrets]
+# API_BASE_URL = "http://localhost:8000/api/v1"

@@ -1,0 +1,107 @@
+# ============================================================================
+# Knowledge Base Builder Configuration (Research-Grade)
+# Optimized for RTX 3050 (4GB VRAM) and Medical Text
+# ============================================================================
+
+
+# ---------------------------------------------------------------------------
+# Embedding Configuration
+# ---------------------------------------------------------------------------
+[embeddings]
+# High-quality sentence embedding model
+# all-mpnet-base-v2 is a strong choice for medical/scientific text
+model_name = "sentence-transformers/all-mpnet-base-v2"
+
+# Device preference ("cuda" auto-falls back to CPU if unavailable)
+device = "cuda"
+
+# Safe batch size for RTX 3050 4GB
+batch_size = 16
+
+# Normalize embeddings for cosine similarity (RECOMMENDED)
+normalize_embeddings = true
+
+# Max sequence length to avoid OOM on long chunks
+max_seq_length = 384
+
+
+# ---------------------------------------------------------------------------
+# ChromaDB Configuration
+# ---------------------------------------------------------------------------
+[chroma]
+# Persistent vector store directory
+persist_directory = "./data/chroma"
+
+# Collection name (tied to corpus identity)
+collection_name = "medical_transplant_kb"
+
+# Distance metric (cosine is correct for normalized embeddings)
+distance_metric = "cosine"
+
+# Disable telemetry
+anonymized_telemetry = false
+
+
+# ---------------------------------------------------------------------------
+# Chunking Configuration (Section-Aware, Research-Correct)
+# ---------------------------------------------------------------------------
+[chunking]
+# Target chunk size (sweet spot for RAG + medical context)
+target_tokens = 400
+
+# Hard lower bound (avoid noisy fragments)
+min_tokens = 100
+
+# Hard upper bound (avoid LLM truncation)
+max_tokens = 600
+
+# Token overlap between adjacent chunks (context continuity)
+overlap_tokens = 50
+
+# Respect markdown section boundaries (CRITICAL for medical text)
+respect_sections = true
+
+# spaCy model used only for sentence splitting
+sentence_model = "en_core_web_sm"
+
+
+# ---------------------------------------------------------------------------
+# Data Paths
+# ---------------------------------------------------------------------------
+[data_paths]
+# Raw markdown medical documents
+raw_docs_dir = "./data/raw_docs"
+
+# Human-readable chunk inspection files
+chunks_output_dir = "./data/chunks"
+
+# JSON metadata, manifests, audit artifacts
+metadata_output_dir = "./data/metadata"
+
+
+# ---------------------------------------------------------------------------
+# Logging Configuration
+# ---------------------------------------------------------------------------
+[logging]
+# Log directory
+log_dir = "./logs"
+
+# Console log level (INFO is reviewer-friendly)
+log_level = "INFO"
+
+
+# ---------------------------------------------------------------------------
+# Processing Controls (Explicit & Auditable)
+# ---------------------------------------------------------------------------
+[processing]
+# Preserve markdown headings for section extraction
+preserve_headings = true
+
+# Strip code blocks and inline formatting
+strip_code_blocks = true
+
+# Enable deterministic hashing for reproducibility
+enable_content_hashing = true
+
+# Save build manifest with config hash
+save_build_manifest = true

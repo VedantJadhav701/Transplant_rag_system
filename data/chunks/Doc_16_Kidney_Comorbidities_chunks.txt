@@ -1,0 +1,162 @@
+Document: DOCUMENT 16: KIDNEY TRANSPLANT - HYPERTENSION, DYSMETABOLISM, AND COMORBIDITIES
+Chunks: 4
+Organ: kidney
+================================================================================
+
+[Doc_16_Kidney_Comorbidities:chunk_000] 1.2 Pathogenesis
+Tokens: 119
+--------------------------------------------------------------------------------
+Multiple mechanisms contributing:
+
+| Mechanism | Details | Prevalence |
+|-----------|---------|-----------|
+| Native kidney HTN | Pre-transplant HTN persistence (not from graft) | Very common |
+| Calcineurin inhibitor (CNI) effect | Vasoconstriction, sodium retention, RAS activation | ~30-40% of transplant HTN |
+| Corticosteroid effect | Sodium retention, sympathetic activation | ~10-20% |
+| Renal artery stenosis | Allograft artery narrowing (1-5% incidence) | <5% of HTN |
+| Allograft rejection | Inflammatory state increases BP | ~10% |
+| Recurrent native kidney disease | If native kidneys still present | Variable |
+| Obesity | Post-transplant weight gain | Common contributor |
+| Reduced graft mass | Single kidney physiology; increased Na reabsorption | Contributing factor |
+
+[Doc_16_Kidney_Comorbidities:chunk_001] 1.3 Clinical Management
+Tokens: 328
+--------------------------------------------------------------------------------
+Blood pressure targets:
+KDIGO recommendation: <120/80 mmHg (more intensive control for cardioprotection)
+Individualized: Some older/frail recipients target <130/80 acceptable
+Avoid overly aggressive: Risk of acute kidney injury if over-treated
+
+Antihypertensive agents:
+
+| Agent | Advantages | Disadvantages | Use |
+|-------|-----------|---------------|-----|
+| ACE inhibitor | Renoprotective (↓ proteinuria); CV protective | Hyperkalemia risk; cough in some; contraindication if pre-transplant renal disease | First-line |
+| ARB (Angiotensin receptor blocker) | Renoprotective; no cough; similar efficacy to ACEi | Hyperkalemia risk | First-line (alternative to ACEi) |
+| Calcium channel blocker (amlodipine) | Well tolerated; no metabolic effects | Gingival hyperplasia; edema; avoid diltiazem/verapamil (CNI interaction) | Second-line |
+| Beta-blocker (carvedilol, metoprolol) | CV protective; indicated if CAD/HF | Fatigue, weight gain, metabolic effects | Use if indicated (CAD, HF) |
+| Thiazide diuretic | Simple, cheap | Metabolic effects (hypokalemia, glucose); hyperuricemia | Avoid if possible; use if volume overload |
+| Loop diuretic | Volume depletion if overloaded | Hypokalemia; electrolyte abnormality | Only if volume overload |
+
+Drug interactions with CNI:
+Avoid: Diltiazem, verapamil (↑ CNI levels)
+Use carefully: NSAIDs (↓ GFR); reduce ACEi/ARB early post-op
+Monitor: Amlodipine does NOT significantly interact; safe choice
+
+BP monitoring:
+Frequency: Every clinic visit (monthly first year, then every 3-6 months)
+Home BP monitoring: Encouraged if possible (detects "white coat" vs. true HTN)
+Goal: <130/80 mmHg (or individualized per guidelines)
+
+Non-pharmacologic management:
+Sodium restriction: <2.3 g/day (reduces BP, proteinuria)
+Weight management: Maintain healthy BMI (obesity worsens HTN)
+Exercise: Regular physical activity (150 min/week moderate)
+DASH diet: Proven BP reduction
+Stress reduction: Meditation, relaxation techniques
+Avoid NSAIDs: Worsen HTN, reduce GFR
+Limit alcohol: <2 drinks/day
+
+Management if HTN refractory:
+1. Assess adherence: Blood work shows CNI level therapeutic? 2. Assess volume status: Volume overloaded (needs diuretic)? 3. Renal artery stenosis screening: Doppler ultrasound if suspected
+4. CNI reduction: Consider lowering target level (if elevated)
+5. Medication optimization: Maximize current agents before adding more
+6. Specialist consultation: Nephrology/cardiology if refractory
+
+---
+
+[Doc_16_Kidney_Comorbidities:chunk_002] 2.3 Clinical Management
+Tokens: 277
+--------------------------------------------------------------------------------
+Screening:
+Fasting glucose: Baseline, then every 3-6 months year 1, then annually
+HbA1c: Every 6-12 months (reflects 3-month average)
+Oral glucose tolerance test (OGTT): If fasting glucose borderline (100-125 mg/dL)
+
+Diagnosis:
+Fasting glucose ≥126 mg/dL: Diabetes
+HbA1c ≥6.5%: Diabetes
+OGTT 2-hour glucose ≥200 mg/dL: Diabetes
+Impaired fasting glucose: 100-125 mg/dL; increased diabetes risk
+
+Prevention:
+Lifestyle modification: Weight management, exercise, diet (critical)
+CNI selection: Tacrolimus > cyclosporine (if possible/early decision; usually already on tacrolimus)
+Minimization of corticosteroids: Taper to ≤5 mg/day prednisolone
+Sirolimus avoidance: If PTDM risk (use other agents if possible)
+Weight management: Peri-operative period critical (prevent excessive weight gain)
+
+Treatment if PTDM develops:
+
+| Agent | Class | Dose | Considerations |
+|-------|-------|------|----------------|
+| Metformin | Biguanide | 500-2000 mg/day | First-line; avoid if eGFR <30; monitor renal function |
+| SGLT2 inhibitor | New agent | Variable | Graft-protective in some studies; emerging use |
+| GLP-1 agonist | Incretin | Varies | Weight loss benefit; CV protection |
+| DPP-4 inhibitor | Incretin | Varies | Well-tolerated; modest HbA1c reduction |
+| Sulfonylurea | Secretagogue | Varies | Hypoglycemia risk; less preferred |
+| Insulin | Hormone | Variable | May require if advanced DM or high glucose needs |
+
+Glycemic targets:
+General: HbA1c <7.5% (less stringent than non-transplant; balance hypoglycemia risk)
+Older/frail: HbA1c <8% acceptable
+Young/new-onset: HbA1c <7% reasonable target
+
+Monitoring:
+Glycemia: Home glucose monitoring if on insulin or high diabetes risk
+HbA1c: Every 3-6 months if DM; adjust therapy based on trend
+Lipids: Lipid panel every 6-12 months (dyslipidemia common with DM)
+Kidney function: eGFR, proteinuria (DM accelerates CKD)
+Annual eye exam: Diabetic retinopathy screening
+Annual foot exam: Diabetic neuropathy screening
+
+---
+
+[Doc_16_Kidney_Comorbidities:chunk_003] 3.3 Clinical Management
+Tokens: 320
+--------------------------------------------------------------------------------
+Screening:
+Lipid panel: Baseline, then every 3-12 months depending on values
+Components: Total cholesterol, LDL, HDL, triglycerides
+
+Goals (KDIGO-based):
+LDL cholesterol: <100 mg/dL (or <70 if high CV risk)
+Total cholesterol: <200 mg/dL (ideal)
+Triglycerides: <150 mg/dL
+HDL: >40 mg/dL (men), >50 mg/dL (women)
+
+Non-pharmacologic management:
+Dietary modification:
+Low saturated fat (<7% of calories)
+High fiber (10-25 g/day)
+Plant sterols/stanols (2 g/day)
+Limit simple carbohydrates
+Weight management: 5-10% weight loss significantly improves lipids
+Exercise: 150 min/week moderate aerobic activity
+Avoid smoking: Cessation critical for CV health
+
+Pharmacologic management:
+
+| Agent | Type | Dose | Target | Notes |
+|-------|------|------|--------|-------|
+| Atorvastatin | Statin | 10-80 mg daily | LDL <100 | First-line; adjust dose for CNI interaction |
+| Rosuvastatin | Statin | 5-40 mg daily | LDL <100 | Less CNI interaction than atorvastatin |
+| Pravastatin | Statin | 20-40 mg daily | LDL <100 | Less CNI interaction; less potent |
+| Ezetimibe | Cholesterol absorption inhibitor | 10 mg daily | Adjunct to statin | Add if LDL not at goal |
+| Fibrate (fenofibrate) | Triglyceride-lowering | 145 mg daily | Triglycerides <150 | Use if high triglycerides; monitor creatinine |
+| Omega-3 (fish oil) | Natural | 2-4 g/day | Triglycerides | Variable efficacy; well-tolerated |
+| PCSK9 inhibitor | Very potent LDL-lowering | Variable | LDL <70 (high risk) | Expensive; reserve for statin-intolerant or very high risk |
+
+Statin considerations:
+Drug interactions: Statins metabolized via CYP3A4 (same as CNI); monitor levels, adjust if needed
+Muscle symptoms: Myalgia/myositis possible; monitor for weakness, pain
+CK elevation: Check CK if muscle symptoms; discontinue if markedly elevated
+Universally recommended: All transplant recipients should be on statin (cardiometabolic benefit even with normal lipids)
+
+Monitoring:
+Lipid panel: Every 3-6 months initially; then annually if stable on therapy
+Liver enzymes: Baseline; repeat if dose escalation; generally well-tolerated
+Muscle symptoms: Ask at each visit; CK only if symptomatic
+
+---
+

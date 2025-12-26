@@ -1,0 +1,198 @@
+Document: DOCUMENT 1: ORGAN TRANSPLANTATION IMMUNOLOGY: ALLOIMMUNIZATION AND HLA MATCHING
+Chunks: 12
+Organ: foundational
+================================================================================
+
+[Doc_1_HLA_Immunology:chunk_000] 1.1 Overview of HLA Molecules
+Tokens: 157
+--------------------------------------------------------------------------------
+The Human Leukocyte Antigen (HLA) system is the most polymorphic genetic system in humans, with >25,000 identified HLA alleles[1]. Despite this extreme diversity, only 60-70 of the most frequently occurring alleles are typically considered for organ transplantation compatibility testing[1]. The HLA system comprises two major classes:
+
+HLA Class I molecules (HLA-A, -B, -C) are expressed on all nucleated cells and present intracellular peptides to CD8+ cytotoxic T lymphocytes (CTLs). These molecules consist of a polymorphic α-chain, β2-microglobulin, and bound peptide. HLA Class II molecules (HLA-DR, -DQ, -DP) are expressed on professional antigen-presenting cells (dendritic cells, B cells, macrophages) and present exogenous peptides to CD4+ helper T cells. Class II molecules consist of α and β chains, both of which are polymorphic. The peptide-binding region (PBR) of HLA molecules contains the most polymorphic amino acid positions. These positions determine which peptides can bind and be presented to T cells, fundamentally shaping the immune response to the transplanted organ.
+
+[Doc_1_HLA_Immunology:chunk_001] 2.1 Mechanisms of HLA-Driven Alloimmunization
+Tokens: 220
+--------------------------------------------------------------------------------
+Alloimmunization occurs when the transplant recipient's immune system recognizes donor HLA molecules as foreign and mounts an adaptive immune response. Three main pathways of HLA allorecognition operate:
+
+#### Direct Allorecognition
+In the direct pathway, recipient T cells directly recognize intact donor HLA molecules on donor antigen-presenting cells (APCs) that persist in the transplant[3]. This is the dominant pathway in acute rejection and is particularly effective because intact donor HLA/peptide complexes can activate high frequencies of recipient T cells (0.1-10% of circulating T cells recognize allogeneic HLA). The direct pathway is especially important early post-transplant when donor lymphoid cells are present. #### Indirect Allorecognition
+In the indirect pathway, recipient APCs process and present peptides derived from donor HLA molecules (and other alloantigen) in the context of recipient HLA to recipient T cells[3]. This pathway becomes increasingly important over time as donor APCs disappear and mimics the response to exogenous antigens (such as infectious pathogens). The indirect pathway is thought to be primarily responsible for chronic rejection through activation of helper T cells that license B cells to produce donor-specific antibodies (DSA). #### Semi-direct Allorecognition
+In the semi-direct pathway, recipient APCs acquire intact allogeneic HLA molecules from dying donor cells or APCs and present them at the cell surface. This hybrid pathway may explain certain aspects of B-cell activation and antibody production.
+
+[Doc_1_HLA_Immunology:chunk_002] 2.2 B-Cell Activation and Donor-Specific Antibody (DSA) Formation
+Tokens: 163
+--------------------------------------------------------------------------------
+The development of donor-specific antibodies (DSA) is a hallmark of alloimmunization. This process involves:
+
+1. T-cell help: CD4+ helper T cells (particularly Tfh cells in germinal centers) provide interleukin-21 and CD40-CD40L signals to B cells recognizing donor HLA. 2. B-cell activation and clonal selection: B cells specific for donor HLA undergo proliferation and selection in germinal centers within secondary lymphoid organs. 3. Affinity maturation: Through somatic hypermutation and selection, B-cell receptors with higher affinity for donor HLA are generated. 4. Plasma cell differentiation and memory formation: Some B cells differentiate into antibody-secreting plasma cells; others become long-lived memory B cells. The classes of DSA produced follow a pattern:
+IgM DSA: Often transient, may appear early after sensitization (e.g., transfusion, pregnancy)
+IgG DSA: More persistent, consist of subclasses IgG1, IgG2, IgG3, and IgG4 with varying complement-fixing ability
+IgA DSA: Less well characterized but increasingly recognized as potentially pathogenic
+
+The presence and persistence of DSA is a major risk factor for antibody-mediated rejection (AMR). ---
+
+[Doc_1_HLA_Immunology:chunk_003] 3.1 HLA Mismatch Burden and Rejection Risk
+Tokens: 153
+--------------------------------------------------------------------------------
+Multiple studies have established a clear correlation between HLA mismatch degree and rejection risk[1]:
+
+Conventional (broad antigen) HLA mismatching:
+A one-locus mismatch at HLA-A, HLA-B, or HLA-DR increases acute rejection risk incrementally
+Compared to zero-antigen mismatches (perfect match), each additional mismatch at HLA-A/B/DR increases acute rejection risk
+The effect is most pronounced in first-time transplant recipients
+Recipients >60 years may show less mismatch-related rejection (possibly due to age-related immune senescence)
+
+HLA-DQ mismatching:
+DQ mismatches are independently associated with acute rejection regardless of HLA-ABDR matching[1]
+Two-allele DQ mismatches carry a hazard ratio (HR) of 2.85 (95% CI 1.05-7.75) for acute rejection
+The importance of DQ was underappreciated in earlier eras due to incomplete typing
+
+Long-term outcomes:
+Better HLA matches are associated with improved graft survival beyond acute rejection prevention
+Zero-antigen HLA mismatched kidneys from living donors achieve median graft survival of 19+ years
+Each additional HLA mismatch is associated with reduced long-term graft half-life
+
+[Doc_1_HLA_Immunology:chunk_004] 3.2 Eplet Mismatching: Beyond Broad Antigen Matching
+Tokens: 247
+--------------------------------------------------------------------------------
+Traditional HLA matching focuses on mismatches at the level of whole HLA antigens. However, the actual immunogenic determinants on HLA molecules are much smaller structures called epitopes and specifically eplets (clusters of amino acids that form antibody binding sites). #### Definition and Identification
+
+Eplets are defined as short amino acid sequences (typically 5-8 amino acids) on the HLA molecule surface that can be recognized by HLA-specific antibodies. The concept has evolved from:
+Monoclonal antibody studies identifying discrete epitopes
+Human alloantibody analysis showing fine specificity
+Computational immunology predicting eplet mismatches from HLA sequences[4]
+
+Recent algorithms (e.g., HLAmatch, PIRCHE) compute eplet incompatibility from donor-recipient HLA typing by comparing amino acid sequences. #### Clinical Significance
+
+Studies demonstrate that eplet mismatch load predicts rejection risk independently of conventional HLA mismatches[4]:
+Senev et al. found that eplet mismatch load was associated with:
+Increased de novo DSA (dnDSA) formation
+Higher rates of T-cell-mediated rejection (5% increased odds per mismatch)
+Higher rates of antibody-mediated rejection (12% increased odds per mismatch)
+Graft failure
+In recipients considered "low risk" by traditional matching (0-2 HLA-ABDR antigen mismatches), those with ≥20 eplet mismatches had adjusted HR 1.85 (95% CI 1.11-3.08) for rejection vs. those with <20 eplet mismatches
+DQ eplet mismatches are particularly immunogenic
+
+#### Clinical Application
+
+Eplet matching is increasingly incorporated into:
+Living donor selection (choosing the donor with lowest eplet mismatch)
+Kidney paired donation programs (finding compatible pairs with reduced eplet incompatibility)
+Organ allocation algorithms (incorporating eplet mismatch scores)
+Risk stratification for induction immunosuppression intensity
+
+---
+
+[Doc_1_HLA_Immunology:chunk_005] 4.1 Pre-transplant Sensitization
+Tokens: 163
+--------------------------------------------------------------------------------
+Approximately 20% of kidney transplant candidates have circulating HLA-specific antibodies, meaning they have been sensitized to HLA antigens before transplantation[1]. This sensitization results from:
+
+#### Blood Transfusions
+Transfused red blood cells and platelets express HLA antigens (Class I on RBCs, both Class I and II on platelets). Transfusion-related HLA sensitization is less common in the modern era due to leukoreduction of blood products and widespread use of immunosuppression. #### Pregnancy
+Maternal-fetal trafficking of fetal HLA-incompatible cells can induce maternal anti-HLA responses. Multiparity is associated with increased HLA sensitization. The risk is higher with male fetuses (higher fetal hemoglobin containing maternal HLA+ white blood cells crossing the placenta). #### Prior Organ Transplantation
+Previous allograft recipients have the highest sensitization rates. This results from both:
+Deliberate or incidental immunization from the prior graft
+Failed grafts with chronic rejection where ongoing HLA exposure perpetuates alloimmunization
+
+#### Other Sources
+Peritoneal dialysate (in peritoneal dialysis patients)
+Hemodialysis (unclear mechanism; possibly through dialysis membranes or transfusions given during dialysis)
+
+[Doc_1_HLA_Immunology:chunk_006] 5.2 Crossmatch Methodologies
+Tokens: 235
+--------------------------------------------------------------------------------
+#### Complement-Dependent Cytotoxicity (CDC) Crossmatch
+This classical method incubates recipient serum with donor lymphocytes in the presence of complement. A positive test (cell lysis) indicates presence of cytotoxic antibodies. This is now rarely performed due to lack of sensitivity. #### Flow Cytometry Crossmatch
+More sensitive than CDC. Recipient serum is incubated with donor cells (T cells and B cells sorted) and then stained with fluorescently labeled anti-human immunoglobulin antibodies. Positive flow cytometry indicates binding of recipient antibodies to donor cells. Clinical interpretation:
+T-cell positive, B-cell negative: Likely anti-HLA Class I
+T-cell positive, B-cell positive: Could be anti-HLA Class I or II, or anti-MICA/MICB
+B-cell positive, T-cell negative: Likely anti-HLA Class II or endothelial antigens
+
+#### Single Antigen Bead Assay
+Now the gold standard for HLA antibody detection. Luminex-based assays use microspheres coated with individual recombinant HLA antigens. Recipient serum is incubated with these beads; positive results (binding of IgG or IgM) are detected by fluorescence. This method:
+Identifies specific HLA antigens against which antibodies exist
+Quantifies antibody strength (mean fluorescence intensity, MFI)
+Distinguishes HLA Class I from Class II antibodies
+Detects both IgG and IgM
+Provides data for eplet matching
+
+#### Virtual Crossmatch
+A computational approach: if single antigen bead testing shows no donor-specific antibodies (DSA) and donor HLA typing is known, the likelihood of a negative crossmatch is very high. Virtual crossmatch reduces the need for tissue typing and can facilitate faster organ allocation.
+
+[Doc_1_HLA_Immunology:chunk_007] 6.1 Living Donor Transplantation
+Tokens: 157
+--------------------------------------------------------------------------------
+In living donation, there is opportunity to select among potential donors based on HLA compatibility. Strategies include:
+
+#### HLA-Compatible Living Donor Selection
+When multiple related or unrelated donors are available, the donor with the lowest HLA (or eplet) mismatch is chosen. This results in:
+Better short-term graft survival
+Reduced rejection rates
+Improved long-term outcomes
+Reduced immunosuppression requirements
+
+#### Kidney Paired Donation (KPD) Programs
+KPD programs enroll incompatible donor-recipient pairs and facilitate exchanges to find compatible matches. A multi-center study found that:
+26.9% of enrolled pairs were otherwise compatible (meaning the donor and recipient were HLA-compatible despite potential blood type incompatibility or other factors)
+More than half successfully received an equivalent or better HLA match through the exchange[1]
+
+#### HLA Eplet-Optimized Living Donor Selection
+Increasingly, living donor selection incorporates eplet mismatch minimization. Simulations show that eplet mismatch loads can be significantly reduced through paired kidney donation programs, even when broad HLA antigen mismatches seem comparable between candidate pairs.
+
+[Doc_1_HLA_Immunology:chunk_008] 7.1 Non-HLA Antigens and Alloantibodies
+Tokens: 117
+--------------------------------------------------------------------------------
+While HLA-driven alloimmunity is the primary determinant of rejection, mounting evidence demonstrates that non-HLA donor-recipient mismatches also contribute to allograft injury:
+
+#### Major Histocompatibility Complex Class I-Related Chain A (MICA) and MICB
+MICA and MICB are stress-inducible molecules with limited polymorphism. MICA-specific antibodies develop in ~10-15% of sensitized transplant recipients and are associated with:
+Acute and chronic AMR
+Graft vasculopathy
+Reduced graft survival
+
+#### Endothelial Antigens
+Various endothelial antigens (e.g., vimentin, perlecan, collagen) can be targets of non-HLA antibodies and may contribute to chronic rejection through molecular mimicry or cross-reactivity with HLA. #### ABO System
+ABO blood group antigens are expressed on endothelial cells. ABO incompatibility was historically a contraindication but is now manageable through desensitization protocols.
+
+[Doc_1_HLA_Immunology:chunk_009] 8.2 Desensitization Strategies
+Tokens: 117
+--------------------------------------------------------------------------------
+#### Antibody Removal
+Therapeutic plasma exchange (TPE): Removes circulating immunoglobulins, including HLA-specific antibodies. Typically 5-10 exchanges remove 60-80% of IgG.
+Immunoadsorption: More selective removal of HLA-specific antibodies using columns coated with HLA antigens or protein A (which binds immunoglobulin Fc regions). #### B-Cell and Plasma Cell Reduction
+Rituximab: Chimeric mouse-human monoclonal antibody against CD20 (B-cell surface antigen). Depletes B cells and some memory B cells, reducing DSA-producing cells. Bortezomib: Proteasome inhibitor that targets plasma cells. Used in some centers for proteasome inhibitor-based desensitization. #### Immunoglobulin Replacement
+Intravenous immunoglobulin (IVIG): Polyclonal human immunoglobulin. Mechanisms include:
+Provides normal IgG to replace removed antibodies
+Anti-idiotype effects (anti-HLA antibodies in IVIG may bind recipient anti-HLA antibodies)
+Complement modulation
+B-cell signaling effects
+
+[Doc_1_HLA_Immunology:chunk_010] 8.4 Emerging Desensitization Agents
+Tokens: 115
+--------------------------------------------------------------------------------
+Eculizumab (complement C5 inhibitor)
+Blocks terminal complement pathway (C5a, C5b-9 formation)
+May prevent antibody-mediated cellular injury even if DSA present
+One study found no difference vs. standard desensitization at 9 weeks post-transplant
+
+Tocilizumab (IL-6 receptor antagonist)
+Blocks IL-6 signaling, important in B-cell maturation and Tfh cell differentiation
+French study found tocilizumab equivalent to standard apheresis + rituximab for pre-transplant DSA reduction
+
+Imlifidase (IgG-degrading enzyme)
+Cleaves human IgG at hinge region, inactivating antibodies
+Rapid reduction of DSA, even achievement of negative crossmatch after treatment
+Concerns: DSA rebound post-transplant, anti-imlifidase antibody formation
+Current role limited; more data needed
+
+Monoclonal antibodies against HLA-specific B cells
+Novel agents targeting B-cell receptors specific for donor HLA
+Still in development/clinical trials
+
+[Doc_1_HLA_Immunology:chunk_011] Key Points
+Tokens: 138
+--------------------------------------------------------------------------------
+1. HLA mismatching is the primary immune barrier: Donor-recipient HLA incompatibility triggers alloimmunization and rejection. Better HLA matching improves both acute and long-term outcomes. 2. Eplet matching is more precise than broad antigen matching: Eplet mismatch load predicts rejection risk independently and is increasingly used for living donor selection and allocation. 3. Sensitization is common and impactful: ~20% of transplant candidates have pre-formed HLA antibodies from transfusion, pregnancy, or prior transplant. Even low-level pre-transplant DSA doubles AMR risk. 4. De novo DSA formation is a major threat: Post-transplant HLA alloimmunization despite immunosuppression contributes significantly to chronic rejection and graft loss. 5. Desensitization expands the donor pool: Modern protocols enable successful ABO-incompatible and HLA-incompatible transplantation in highly sensitized candidates. 6. Non-HLA alloimmunity is emerging: MICA, endothelial, and other non-HLA antibodies contribute to rejection but have limited diagnostic/therapeutic options. ---
+

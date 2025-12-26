@@ -1,0 +1,259 @@
+Document: DOCUMENT 7: ORGAN PRESERVATION - COLD STORAGE AND MACHINE PERFUSION
+Chunks: 7
+Organ: foundational
+================================================================================
+
+[Doc_7_Organ_Preservation:chunk_000] 1.1 Mechanisms of Ischemic Injury
+Tokens: 283
+--------------------------------------------------------------------------------
+#### Energy Depletion
+
+Normal aerobic metabolism:
+Mitochondrial oxidative phosphorylation generates ATP
+Maintains ion gradients (Na+/K+ ATPase), cellular function
+Continuous: ~1-2 ATP molecules regenerated per glucose
+
+During ischemia (anaerobic conditions):
+Mitochondrial oxidative phosphorylation ceases (no O2)
+ATP production drops to ~2% of basal level (from anaerobic glycolysis alone)
+ATP depletion within minutes (brain cells: 3-5 min; kidney/liver cells: 15-30 min)
+Na+/K+ ATPase fails → cellular swelling (cytotoxic edema)
+Calcium homeostasis lost → intracellular Ca2+ accumulation
+
+Consequences:
+Endothelial cell dysfunction (loss of NO production, increased permeability)
+Epithelial cell injury (tubular epithelium in kidney; hepatocytes in liver)
+Smooth muscle cell dysfunction
+Myocardial stunning (cardiac cells)
+Increased expression of adhesion molecules (ICAM-1, VCAM-1, E-selectin)
+
+#### Intracellular Calcium Overload
+
+Mechanism:
+ATP depletion → Na+/K+ ATPase failure → intracellular Na+ accumulation
+Na+ accumulation activates Na+/Ca2+ exchanger (reversed direction) → intracellular Ca2+ accumulation
+Also: Direct activation of Ca2+ channels during ischemia
+
+Consequences of Ca2+ overload:
+Activation of calpains and caspases (proteolytic enzymes) → protein degradation
+Activation of phospholipase A2 → membrane lipid degradation → loss of membrane integrity
+Mitochondrial damage (Ca2+ uptake → mitochondrial dysfunction, ROS production)
+Activation of apoptotic pathways
+
+#### Reactive Oxygen Species (ROS) Generation
+
+During ischemia:
+Mitochondrial function impaired → incomplete electron transport → ROS generation (superoxide, hydroxyl radical)
+Xanthine oxidase activation (from ATP catabolism to adenosine → inosine → hypoxanthine → xanthine; xanthine oxidase generates ROS)
+
+During early reperfusion (most critical):
+Reintroduction of oxygen
+Incomplete electron transport chains (still recovering) generate massive ROS
+Iron-catalyzed reactions (Fenton reaction) → hydroxyl radical generation
+Neutrophil infiltration → NADPH oxidase-derived ROS
+Peak ROS generation: First 15-30 minutes of reperfusion
+
+Consequences of ROS:
+Lipid peroxidation → membrane damage
+Protein oxidation → loss of enzyme function
+DNA damage → apoptosis
+Mitochondrial dysfunction
+
+[Doc_7_Organ_Preservation:chunk_001] 1.2 Reperfusion Injury and Inflammation
+Tokens: 101
+--------------------------------------------------------------------------------
+Immediate reperfusion response (minutes):
+Reactive oxygen species burst (see above)
+Endothelial cell activation (upregulation of adhesion molecules, TF)
+Thrombosis (tissue factor expression, platelet aggregation)
+Complement activation (C3a, C5a generation; classical pathway from IgM on damaged endothelium)
+
+Early inflammatory phase (hours):
+Neutrophil infiltration (recruited by C5a, chemokines)
+Macrophage infiltration
+Production of pro-inflammatory cytokines (TNF-α, IL-1, IL-6, IL-8)
+Increased vascular permeability → edema
+Increased endothelial dysfunction
+
+Consequences:
+Graft edema (especially problematic in lung, brain)
+Microvascular thrombosis
+Delayed graft function (DGF) in kidney
+Primary graft dysfunction in liver
+Primary graft failure (PGF) in heart
+Early bronchial artery injury in lung → airway complications
+
+---
+
+[Doc_7_Organ_Preservation:chunk_002] 2.2 Cold Preservation Solutions
+Tokens: 189
+--------------------------------------------------------------------------------
+Historical solutions:
+Normal saline: Minimal organ preservation; acceptable only <2-3 hours
+
+Modern solutions (intracellular-type formulations):
+University of Wisconsin (UW) solution: Gold standard for many organs
+Components: Impermeants (lactobionic acid, raffinose), colloids (hydroxyethyl starch), antioxidants (allopurinol, glutathione)
+pH ~7.4, osmolality 320 mOsm/kg
+Composition mimics intracellular fluid (high K+, low Na+)
+Mechanism: Prevents cell swelling (impermeants retain water outside cell); reduces ROS (antioxidants)
+Use: Kidney, liver, pancreas, intestine (not ideal for heart, lung)
+HTK (Histidine-Tryptophan-Ketoglutarate) solution (Custodiol):
+Components: Histidine (buffer), tryptophan (membrane stabilization), ketoglutarate (metabolism)
+Formulation: Extracellular-type (low K+)
+Use: Especially heart, lung (good for hypoxic organs)
+Mechanism: Membrane stabilization; reduced reperfusion injury
+Comparable outcomes to UW for kidney/liver in some studies
+Newer solutions: Organ-specific optimizations
+Subnormothermic perfusate: Warmed solutions preserving organs at 20-30°C (better than 4°C for some organs)
+Oxygen-supplemented solutions: Reduce hypoxic injury during preservation
+
+Solution composition principles:
+Impermeants: Lactobionic acid, raffinose, mannitol → prevent water entry into cells during cold → reduce edema
+Colloids: Hydroxyethyl starch, albumin → maintain oncotic pressure
+Antioxidants: Allopurinol, glutathione, ascorbate, deferoxamine → scavenge ROS
+Buffers: Bicarbonate, HEPES, phosphate → maintain pH
+Electrolytes: Variable K+/Na+ ratio depending on formulation
+Glucose/substrates: Fuel for residual metabolism
+
+[Doc_7_Organ_Preservation:chunk_003] 2.3 SCS Protocol
+Tokens: 118
+--------------------------------------------------------------------------------
+Donor organ procurement:
+1. In situ flush: Aortic cannulation; cold preservation solution infused through aorta
+Flush rapidly cools organ
+Removes blood, RBCs (reduce IRI)
+Vena cava/portal vein vented to decompress organ
+Typical volume: 50-100 mL/kg over 5-10 minutes
+
+2. Explantation and back-table: Careful dissection; further flushing on sterile field
+
+3. Transport: Organ placed in sterile bag → cold saline → outer insulated cooler with ice
+
+Acceptable cold ischemia times:
+Kidney: 24-36 hours (preferred <12 hours)
+Liver: 12-15 hours (preferred <8 hours)
+Heart: <4 hours (rarely tolerated >6 hours; 4 hours is practical limit)
+Lung: <6-8 hours
+Pancreas: <12-15 hours
+
+Temperature maintenance:
+Goal: Keep organ ≤8°C (ideally 1-4°C)
+Monitor: Temperature tags in cooler
+Transport time minimized (race against clock)
+
+[Doc_7_Organ_Preservation:chunk_004] 3.1 Hypothermic Machine Perfusion (HMP)
+Tokens: 234
+--------------------------------------------------------------------------------
+#### Overview
+
+Definition: Active perfusion of organ with oxygenated cold solution (typically 4-10°C)
+
+Mechanism of benefit over SCS:
+Oxygen delivery: Continuous oxygenation (dissolved O2 in cold solution)
+Partially restores aerobic metabolism
+Reduces lactate accumulation (marker of anaerobic metabolism)
+Reduces ROS generation (hypoxia-reperfusion injury prevented)
+Flushing: Continuous perfusion removes cellular debris, potassium accumulated during ischemia, coagulation factors
+Clearance: Lactate, hydrogen ions continuously removed
+Metabolic support: Glucose, substrates available; ATP levels partially restored
+Functional assessment: Flow rate, resistance, organ response can be monitored
+
+#### HOPE (Hypothermic Oxygenated Perfusion)
+
+Specific machine perfusion technique:
+Organ connected to proprietary perfusion circuit
+Cold (4-10°C), oxygenated solution (FiO2 100%) continuously recirculated
+Pump maintains pressure and flow
+Solution warmed to maintain temperature
+Duration: Until transplantation (hours to days in some protocols)
+
+Evidence for HOPE in kidney transplantation:
+Prospective randomized trials show benefit vs. SCS:
+Reduced DGF: 20-25% (HOPE) vs. 30-40% (SCS)
+Better 1-year graft function: Higher GFR with HOPE
+Reduced rejection: Some studies show lower rejection rates
+
+Evidence for HOPE in liver transplantation:
+HOPE reduces ischemic cholangiopathy (ITBL) in extended criteria donor livers
+HOPE outcomes: 10-15% ITBL incidence vs. 20-30% (SCS) in ECD livers
+Better liver function recovery
+Enables use of longer cold ischemia time (15-20 hours) with preservation of outcomes
+
+Cost and practical considerations:
+Expensive equipment ($200,000-500,000 initial cost)
+Ongoing consumable costs (disposable circuits, solutions)
+Requires trained personnel
+Time-intensive (setup, monitoring, transport with equipment)
+Currently not widely available (limited centers)
+
+---
+
+[Doc_7_Organ_Preservation:chunk_005] 3.2 Normothermic Machine Perfusion (NMP)
+Tokens: 198
+--------------------------------------------------------------------------------
+#### Overview
+
+Definition: Active perfusion of organ with warm (37°C), oxygenated, blood-based solution
+
+Mechanism of benefit:
+Restoration of aerobic metabolism: Normothermic temperature restores full metabolic rate
+ATP regeneration: Complete restoration possible (vs. partial in HMP)
+Functional assessment: Organ working at physiologic temperature; function assessable
+Reversal of injury: Potential to reverse some ischemic injury through metabolic support
+Longer preservation window: Potential for extended preservation (days) if perfusion maintained
+
+Key difference from HMP:
+Hypothermic perfusion: Slows but doesn't eliminate ischemia; extends time window
+Normothermic perfusion: Restores organ function; potential for "organ reconditioning"
+
+#### Normothermic Kidney Perfusion (NKP)
+
+Technique:
+Kidney connected to portable perfusion circuit
+Warm (37°C), oxygenated solution (blood-based) perfuses via renal artery
+Continuous monitoring: Flow, oxygen consumption, creatinine clearance, urine output
+Duration: Variable (hours to days)
+
+Clinical data (emerging):
+Pilot studies show:
+Better recovery of renal function vs. SCS
+Ability to assess viability (oxygen consumption, urine output indicate viable kidney)
+Potential to extend preservation window (preservation for 24+ hours with maintained function)
+Possible reversal of delayed graft function risk
+
+Challenges:
+Equipment cost (expensive; $500,000+)
+Complexity: Requires trained technician, continuous monitoring
+Transport: Equipment portable but cumbersome
+Solution preparation: Blood-based solution required
+Current status: Investigational; not standard of care yet
+
+---
+
+[Doc_7_Organ_Preservation:chunk_006] 7. SUMMARY AND KEY CONCEPTS
+Tokens: 131
+--------------------------------------------------------------------------------
+1. Ischemia-reperfusion injury is major cause of graft dysfunction; energy depletion, ROS, inflammation primary mechanisms
+
+2. Static cold storage (SCS) remains standard; inexpensive, simple, effective for short ischemia times (<4-12 hours depending on organ)
+
+3. Machine perfusion (HMP, NMP) emerging; enables functional assessment, extends ischemia tolerance, reduces DGF
+HOPE: Proven benefit in kidney, liver (reduces DGF, ITBL)
+NMP: Promising but investigational; may enable extended preservation
+
+4. Ischemia time limits organ-specific:
+Heart: <4 hours (major constraint on geographic sharing)
+Lung: <6-8 hours
+Liver: <12-15 hours
+Kidney: <24-36 hours
+
+5. Emerging technologies (EVLP, NMP, organ engineering) may dramatically expand donor pool and outcomes
+
+6. Cost-benefit: MP technologies expensive; cost-benefit greatest for marginal (ECD, DCD) donors where benefit most pronounced
+
+---
+
+Document Version: 1.0 
+Evidence Base: KDIGO, AST, AASLD, ISHLT Guidelines, Peer-Reviewed Literature (2020-2025)
+

@@ -1,0 +1,48 @@
+{
+  "build_timestamp": "2025-12-25T17:56:22.734770",
+  "config_hash": "dcd99fd560a58f1e",
+  "stats": {
+    "n_documents": 24,
+    "n_chunks": 194,
+    "total_tokens": 37018,
+    "avg_chunk_tokens": 190.81443298969072
+  },
+  "config": {
+    "embeddings": {
+      "model_name": "sentence-transformers/all-mpnet-base-v2",
+      "device": "cuda",
+      "batch_size": 16,
+      "normalize_embeddings": true,
+      "max_seq_length": 384
+    },
+    "chroma": {
+      "persist_directory": "./data/chroma",
+      "collection_name": "medical_transplant_kb",
+      "distance_metric": "cosine",
+      "anonymized_telemetry": false
+    },
+    "chunking": {
+      "target_tokens": 400,
+      "min_tokens": 100,
+      "max_tokens": 600,
+      "overlap_tokens": 50,
+      "respect_sections": true,
+      "sentence_model": "en_core_web_sm"
+    },
+    "data_paths": {
+      "raw_docs_dir": "./data/raw_docs",
+      "chunks_output_dir": "./data/chunks",
+      "metadata_output_dir": "./data/metadata"
+    },
+    "logging": {
+      "log_dir": "./logs",
+      "log_level": "INFO"
+    },
+    "processing": {
+      "preserve_headings": true,
+      "strip_code_blocks": true,
+      "enable_content_hashing": true,
+      "save_build_manifest": true
+    }
+  }
+}
