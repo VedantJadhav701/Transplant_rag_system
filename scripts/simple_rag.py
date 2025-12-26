@@ -67,7 +67,7 @@ Instructions:
     return prompt
 
 
-def answer_question(question: str, top_k: int = 5, model: str = "phi3:mini"):
+def answer_question(question: str, top_k: int = 5, model: str = "gemma3:1b"):
     """Complete RAG pipeline"""
     
     print(f"\n{'='*80}")
@@ -152,8 +152,8 @@ def main():
     parser.add_argument(
         '--model',
         type=str,
-        default='phi3:mini',
-        help='Ollama model name (default: phi3:mini)'
+        default='gemma3:1b',
+        help='Ollama model name (default: gemma3:1b)'
     )
     
     args = parser.parse_args()

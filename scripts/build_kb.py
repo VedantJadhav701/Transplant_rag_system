@@ -594,16 +594,17 @@ class VectorIndexer:
         except:
             pass
         
-        # Create new
+        # Load embedding model FIRST (we handle embeddings ourselves)
+        self._load_embedding_model()
+        
+        # Create new collection WITHOUT embedding function
+        # We'll provide embeddings directly when adding documents
         self.collection = self.client.create_collection(
             name=collection_name,
             metadata={"hnsw:space": "cosine"}
         )
         
         self.logger.info(f"Created collection: {collection_name}")
-        
-        # Load embedding model
-        self._load_embedding_model()
     
     def _load_embedding_model(self):
         """Load embedding model with GPU optimization"""

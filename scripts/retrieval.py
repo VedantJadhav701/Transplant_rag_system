@@ -140,24 +140,24 @@ class MedicalRetriever:
         with open(config_path, 'r') as f:
             self.config = toml.load(f)
         
-        # Load ChromaDB
-        self.client = chromadb.PersistentClient(path=chroma_path)
-        self.collection = self.client.get_collection(
-            name=self.config["chroma"]["collection_name"]
-        )
-        
-        # Load embedding model (same as KB builder)
+        # Load embedding model (for query encoding)
         embedding_config = self.config["embeddings"]
         self.model = SentenceTransformer(
             embedding_config["model_name"],
             device="cpu"  # Use CPU for retrieval to save VRAM for LLM
         )
         
+        # Load ChromaDB WITHOUT embedding function (we handle embeddings ourselves)
+        self.client = chromadb.PersistentClient(path=chroma_path)
+        self.collection = self.client.get_collection(
+            name=self.config["chroma"]["collection_name"]
+        )
+        
         # Retrieval parameters
         self.default_top_k = 8
         self.context_budget = 2500  # tokens
         self.dedup_threshold = 0.85  # 85% token overlap
-        self.hybrid_mode = True  # Enable hybrid BM25 + vector search
+        self.hybrid_mode = False  # Disable hybrid search (RRF scoring bug)
         self.bm25_weight = 0.3  # BM25 contribution (0.3 = 30% keyword, 70% semantic)
         
         print(f"✓ Retriever initialized")
@@ -228,7 +228,7 @@ class MedicalRetriever:
         tier_filter: Optional[str]
     ) -> List[RetrievedChunk]:
         """Original vector-only retrieval"""
-        # Embed query
+        # Embed query manually (don't use ChromaDB's embedding function)
         query_embedding = self.model.encode(
             query,
             convert_to_numpy=True,
@@ -238,7 +238,7 @@ class MedicalRetriever:
         # Build filter
         where_clause = self._build_filter(organ_filter, tier_filter)
         
-        # Query ChromaDB
+        # Query ChromaDB with our embeddings
         results = self.collection.query(
             query_embeddings=[query_embedding.tolist()],
             n_results=top_k,
@@ -274,7 +274,7 @@ class MedicalRetriever:
         if not all_results["documents"]:
             return []
         
-        # Step 1: Vector search
+        # Step 1: Vector search with manual embeddings
         query_embedding = self.model.encode(
             query,
             convert_to_numpy=True,

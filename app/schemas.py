@@ -17,7 +17,7 @@ class QueryRequest(BaseModel):
     model: str = Field(default=os.getenv("DEFAULT_MODEL", "gemma3:1b"), description="Ollama model name")
     temperature: float = Field(default=float(os.getenv("DEFAULT_TEMPERATURE", "0.1")), ge=0.0, le=1.0, description="Sampling temperature")
     answer_mode: str = Field(default="clinical", description="Answer style: brief, clinical, or detailed")
-    confidence_threshold: float = Field(default=0.55, ge=0.0, le=1.0, description="Minimum confidence to return answer")
+    confidence_threshold: float = Field(default=0.50, ge=0.0, le=1.0, description="Minimum confidence to return answer")
     
     @field_validator('query')
     @classmethod

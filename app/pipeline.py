@@ -82,10 +82,10 @@ class HealthcareRAG:
             0.1 * (1 - score_variance)   # Consistency (low variance = better)
         )
         
-        # Categorize
+        # Categorize confidence levels
         if confidence_score > 0.70 and top_score > 0.75:
             confidence_label = "High"
-        elif confidence_score > 0.55:
+        elif confidence_score > 0.50:  # Lowered from 0.55
             confidence_label = "Medium"
         else:
             confidence_label = "Low"
@@ -151,7 +151,7 @@ Instructions:
         model: str = "phi3:mini",
         temperature: float = 0.05,
         answer_mode: str = "clinical",
-        confidence_threshold: float = 0.55
+        confidence_threshold: float = 0.50  # Lowered from 0.55 to reduce false negatives
     ) -> Dict:
         """
         Complete RAG pipeline with confidence scoring
